@@ -1,6 +1,6 @@
-"# neurological-diagnostic-tool" 
+# neurological-diagnostic-tool
 
-#Installation
+## Installation
 
 Clone the repository and run the following command in the "Frontend" directory.
 
@@ -8,7 +8,7 @@ Clone the repository and run the following command in the "Frontend" directory.
 npm install
 ```
 
-#Troubleshooting
+## Troubleshooting
 
 If you encounter an error similar to this one:
 
@@ -42,7 +42,7 @@ npm install
 
 again.
 
-#Running the app
+## Running the app
 
 To run the app, simply run
 
