@@ -52,3 +52,11 @@ npm run dev
 
 in the command line.
 
+## Running whole application with docker
+
+```bash
+docker-compose up --build
+```
+backend will run on http://0.0.0.0:80
+frontend will run on http://localhost:5173/
+
