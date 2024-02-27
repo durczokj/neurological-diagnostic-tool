@@ -1,0 +1,12 @@
+FROM python:3.9
+
+
+WORKDIR /neurotool
+
+COPY ./requirements.txt /neurotool/requirements.txt
+
+RUN pip install --no-cache-dir --upgrade -r /neurotool/requirements.txt
+
+COPY . /neurotool/app
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
