@@ -69,3 +69,11 @@ async def delete_symptom_endpoint(
 )
 async def ask_symptom_question(symptom_name: str):
     return {"message": f"Do you have {symptom_name}?"}
+
+
+@router.get(
+    "/suggestions/symptom/{keyword}"
+)
+async def get_symptom_suggestions(keyword: str):
+    symptoms = await Symptoms.filter(name__icontains=keyword).all()
+    return symptoms
