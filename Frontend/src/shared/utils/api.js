@@ -4,21 +4,25 @@ import { getStoredAuthToken, removeStoredAuthToken } from './authToken'
 import history from '@/browserHistory'
 
 const defaultParams = {
-    baseUrl: 'http://localhost:5173',
+    baseUrl: 'http://localhost:5001',
     headers: () => ({
-        'Content-Type': 'application/json',
-        Authorization: getStoredAuthToken() ? `Bearer ${getStoredAuthToken()}` : undefined
+        'Content-Type': 'application/x-www-form-urlencoded'
     })
 }
 
-const api = (method, url, variables) =>
+const formData = new URLSearchParams()
+
+const api = (method, url, variables) => {
+    for (const property in variables) {
+        formData.append(property, variables[property])
+    }
     new Promise((resolve, reject) => {
         axios({
             url: `${defaultParams.baseUrl}${url}`,
             method,
             headers: defaultParams.headers(),
             params: method === 'get' ? variables : undefined,
-            data: method !== 'get' ? variables : undefined
+            data: method !== 'get' ? formData : undefined
         }).then(
             response => {
                 resolve(response.data)
@@ -37,6 +41,7 @@ const api = (method, url, variables) =>
             }
         )
     })
+}
 
 export default {
     get: (...args) => api('get', ...args),
