@@ -11,7 +11,7 @@ class Users(Model):
 
 
 class Symptoms(Model):
-    name = fields.CharField(pk=True, max_length=225)
+    name: fields.ReverseRelation["DiseaseSymptomsMap"] = fields.CharField(pk=True, max_length=225)
     display_name = fields.CharField(max_length=512)
     description = fields.TextField()
     media = fields.TextField()
@@ -28,19 +28,8 @@ class Symptoms(Model):
 
 
 
-class DiseaseSymptoms_Map(Model):
-    id = fields.IntField(pk=True)
-    symptom_name = fields.ForeignKeyField('models.Symptoms', related_name='name')
-    disease_name = fields.ForeignKeyField('models.Diseases', related_name='name')
-    symptom_name = fields.CharField(max_length=512)
-    disease_name = fields.CharField(max_length=512)
-    required = fields.BooleanField(default=False)
-    excluding = fields.BooleanField(default=False)
-    characteristic = fields.ForeignKeyField('models.Characteristics', related_name='id')
-    characteristic = fields.CharField(max_length=512)
-
 class Disease(Model):
-    name = fields.CharField(max_length=225, pk=True)
+    name: fields.ReverseRelation["DiseaseSymptomsMap"] = fields.CharField(max_length=225, pk=True)
     group = fields.CharField(max_length=225)
     subgroup = fields.CharField(max_length=225)
     description = fields.CharField(max_length=225)
@@ -49,12 +38,21 @@ class Disease(Model):
     modified_at = fields.DatetimeField(auto_now=True)
 
 class Characteristic(Model):
-    id = fields.IntField(pk=True)
+    id: fields.ReverseRelation["DiseaseSymptomsMap"] = fields.IntField(pk=True)
     name = fields.CharField(max_length=225)
     value = fields.CharField(max_length=225)
-
 
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
 
+class DiseaseSymptomsMap(Model):
+    id = fields.IntField(pk=True)
+    symptom_name = fields.ForeignKeyField('models.Symptoms', related_name='name')
+    disease_name = fields.ForeignKeyField('models.Disease', related_name='name')
+    required = fields.BooleanField(default=False)
+    excluding = fields.BooleanField(default=False)
+    characteristic = fields.ForeignKeyField('models.Characteristic', related_name='id')
+
+    created_at = fields.DatetimeField(auto_now_add=True)
+    modified_at = fields.DatetimeField(auto_now=True)
 
