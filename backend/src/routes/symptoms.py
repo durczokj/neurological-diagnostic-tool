@@ -77,3 +77,19 @@ async def ask_symptom_question(symptom_name: str):
 async def get_symptom_suggestions(keyword: str):
     symptoms = await Symptoms.filter(name__icontains=keyword).all()
     return symptoms
+
+
+
+@router.get(
+    "/which_symptom_to_ask_for",
+    response_model=SymptomOutSchema,
+)
+async def get_random_symptom(symptoms: List[SymptomOutSchema]) -> SymptomOutSchema:
+    random_symptom_name = "string"
+    try:
+        return await Symptoms.get(name=random_symptom_name)
+    except DoesNotExist:
+        raise HTTPException(
+            status_code=404,
+            detail="Symptom does not exist",
+        )
