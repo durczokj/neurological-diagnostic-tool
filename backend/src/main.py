@@ -8,7 +8,7 @@ from src.database.config import TORTOISE_ORM
 
 # enable schemas to read relationship between models
 Tortoise.init_models(["src.database.models"], "models")
-from src.routes import users, symptoms, red_flags
+from src.routes import users, symptoms, red_flags, diseasesymptoms_map
 
 app = FastAPI()
 
@@ -22,6 +22,7 @@ app.add_middleware(
 app.include_router(users.router)
 app.include_router(symptoms.router)
 app.include_router(red_flags.router)
+app.include_router(diseasesymptoms_map.router)
 
 register_tortoise(app, config=TORTOISE_ORM)
 
