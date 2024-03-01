@@ -11,12 +11,12 @@ class Users(Model):
 
 
 class Symptoms(Model):
-    id = fields.IntField(pk=True)
-    name = fields.CharField(max_length=225)
+    name = fields.CharField(pk=True, max_length=225)
     display_name = fields.CharField(max_length=512)
     description = fields.TextField()
+    media = fields.TextField()
     group = fields.CharField(max_length=225)
-    
+
     # Boolean fields to indicate whether the symptom can have these characteristics
     can_be_symmetric = fields.BooleanField(default=False)
     can_have_severity_over_time = fields.BooleanField(default=False)
@@ -25,6 +25,7 @@ class Symptoms(Model):
     
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
+
 
 
 class DiseaseSymptoms_Map(Model):
@@ -37,6 +38,22 @@ class DiseaseSymptoms_Map(Model):
     excluding = fields.BooleanField(default=False)
     #characteristic = fields.ForeignKeyField('models.Characteristics', related_name='id')
     characteristic = fields.CharField(max_length=512)
+
+class Disease(Model):
+    name = fields.CharField(max_length=225, pk=True)
+    group = fields.CharField(max_length=225)
+    subgroup = fields.CharField(max_length=225)
+    description = fields.CharField(max_length=225)
+
+    created_at = fields.DatetimeField(auto_now_add=True)
+    modified_at = fields.DatetimeField(auto_now=True)
+
+class Characteristic(Model):
+    id = fields.IntField(pk=True)
+    name = fields.CharField(max_length=225)
+    value = fields.CharField(max_length=225)
+
+
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
 
