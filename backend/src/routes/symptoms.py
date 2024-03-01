@@ -23,9 +23,9 @@ async def read_symptoms():
     "/symptom/{symptom_id}",
     response_model=SymptomOutSchema,
 )
-async def read_symptom(symptom_id: int) -> SymptomOutSchema:
+async def read_symptom(symptom_name: str) -> SymptomOutSchema:
     try:
-        return await Symptoms.get(id=symptom_id)
+        return await Symptoms.get(name=symptom_name)
     except DoesNotExist:
         raise HTTPException(
             status_code=404,
@@ -42,15 +42,15 @@ async def create_symptom_endpoint(
     return await create_symptom(symptom, current_user)
 
 @router.patch(
-    "/symptom/{symptom_id}",
+    "/symptom/{symptom_name}",
     response_model=SymptomOutSchema,
     responses={404: {"model": HTTPNotFoundError}, 403: {"description": "Operation not permitted"}},
 )
 async def update_symptom_endpoint(
-    symptom_id: int,
+    symptom_name: str,
     symptom: SymptomResponseSchema,
 ) -> SymptomOutSchema:
-    return await update_symptom(symptom_id, symptom)
+    return await update_symptom(symptom_name, symptom)
 
 @router.delete(
     "/symptom/{symptom_id}",
@@ -59,6 +59,7 @@ async def update_symptom_endpoint(
     dependencies=[Depends(get_current_user)],
 )
 async def delete_symptom_endpoint(
-    symptom_id: int, current_user: UserOutSchema = Depends(get_current_user)
+    symptom_name: str, current_user: UserOutSchema = Depends(get_current_user)
 ):
-    return await delete_symptom(symptom_id)
+    return await delete_symptom(symptom_name)
+ 

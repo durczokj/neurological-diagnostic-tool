@@ -11,12 +11,12 @@ class Users(Model):
 
 
 class Symptoms(Model):
-    id = fields.IntField(pk=True)
-    name = fields.CharField(max_length=225)
+    name = fields.CharField(pk=True, max_length=225)
     display_name = fields.CharField(max_length=512)
     description = fields.TextField()
+    media = fields.TextField()
     group = fields.CharField(max_length=225)
-    
+
     # Boolean fields to indicate whether the symptom can have these characteristics
     can_be_symmetric = fields.BooleanField(default=False)
     can_have_severity_over_time = fields.BooleanField(default=False)
