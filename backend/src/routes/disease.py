@@ -42,12 +42,12 @@ async def create_disease_endpoint(
     return await create_disease(disease, current_user)
 
 @router.delete(
-    "/disease/{disease_id}",
+    "/disease/{name}",
     response_model=Status,
     responses={404: {"model": HTTPNotFoundError}},
     dependencies=[Depends(get_current_user)],
 )
 async def delete_disease_endpoint(
-    disease_id: int, current_user: UserOutSchema = Depends(get_current_user)
+    name: int, current_user: UserOutSchema = Depends(get_current_user)
 ):
-    return await delete_disease(disease_id)
+    return await delete_disease(name)
