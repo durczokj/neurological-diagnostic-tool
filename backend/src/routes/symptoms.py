@@ -63,3 +63,9 @@ async def delete_symptom_endpoint(
 ):
     return await delete_symptom(symptom_name)
  
+
+@router.get(
+    "/symptom/{symptom_name}/question"
+)
+async def ask_symptom_question(symptom_name: str):
+    return {"message": f"Do you have {symptom_name}?"}
