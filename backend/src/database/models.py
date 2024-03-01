@@ -31,12 +31,12 @@ class Symptoms(Model):
 class DiseaseSymptoms_Map(Model):
     id = fields.IntField(pk=True)
     symptom_name = fields.ForeignKeyField('models.Symptoms', related_name='name')
-    #disease_name = fields.ForeignKeyField('models.Diseases', related_name='name')
+    disease_name = fields.ForeignKeyField('models.Diseases', related_name='name')
     symptom_name = fields.CharField(max_length=512)
     disease_name = fields.CharField(max_length=512)
     required = fields.BooleanField(default=False)
     excluding = fields.BooleanField(default=False)
-    #characteristic = fields.ForeignKeyField('models.Characteristics', related_name='id')
+    characteristic = fields.ForeignKeyField('models.Characteristics', related_name='id')
     characteristic = fields.CharField(max_length=512)
 
 class Disease(Model):
