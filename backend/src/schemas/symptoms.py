@@ -7,7 +7,7 @@ from src.database.models import Symptoms
 
 
 SymptomCreateSchema = pydantic_model_creator(
-    Symptoms, name="SymptomCreateSchema", exclude=["modified_at", "created_at"]
+    Symptoms, name="SymptomCreateSchema", exclude=["modified_at", "created_at","diseasesymptomsmaps"]
     )
 
 SymptomOutSchema = pydantic_model_creator(
