@@ -12,7 +12,7 @@ services:
       - DATABASE_URL=postgres://admin:dupa123@db:5432/something
       - SECRET_KEY=09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7
     volumes:
-      - ./Backend:/app
+      - ./backend:/app
     command: uvicorn src.main:app --reload --host 0.0.0.0 --port 5001
     depends_on:
       - db
