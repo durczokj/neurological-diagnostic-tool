@@ -27,12 +27,12 @@ class Symptoms(Model):
     modified_at = fields.DatetimeField(auto_now=True)
 
 class Disease(Model):
-    name = fields.CharField(max_length=225)
+    name = fields.CharField(max_length=225, pk=True)
     group = fields.CharField(max_length=225)
     subgroup = fields.CharField(max_length=225)
     description = fields.CharField(max_length=225)
 
-    created_at = fields.DatetimeField(auto_now_add=True, pk=True)
+    created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
 
 class Characteristic(Model):
