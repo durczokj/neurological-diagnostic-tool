@@ -56,7 +56,7 @@ class DiseaseSymptomsMap(Model):
     disease_name = fields.CharField(max_length=512)
     required = fields.BooleanField(default=False)
     excluding = fields.BooleanField(default=False)
-    characteristic = fields.ForeignKeyField('models.Characteristics', related_name='id')
+    characteristic = fields.ForeignKeyField('models.Characteristics')
     characteristic = fields.CharField(max_length=512)
 
     created_at = fields.DatetimeField(auto_now_add=True)
