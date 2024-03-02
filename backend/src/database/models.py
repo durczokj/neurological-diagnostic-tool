@@ -50,8 +50,8 @@ class Characteristic(Model):
 
 class DiseaseSymptomsMap(Model):
     id = fields.IntField(pk=True)
-    symptom_name = fields.ForeignKeyField('models.Symptoms', related_name='name')
-    disease_name = fields.ForeignKeyField('models.Diseases', related_name='name')
+    symptom_name = fields.ForeignKeyField('models.Symptoms')
+    disease_name = fields.ForeignKeyField('models.Diseases')
     symptom_name = fields.CharField(max_length=512)
     disease_name = fields.CharField(max_length=512)
     required = fields.BooleanField(default=False)
