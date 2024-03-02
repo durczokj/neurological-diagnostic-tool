@@ -7,9 +7,10 @@
             "media": "to be added",
             "group": "string",
             "can_be_symmetric": false,
-            "can_have_severity_over_time": false,
+            "can_be_variable_over_time": false,
             "can_have_age_of_symptom_onset": false,
             "can_worsen_over_time": false,
+            "can_exist_in_family": false
         }
     ]
 }

@@ -7,7 +7,7 @@ from src.database.models import Symptoms
 
 
 SymptomCreateSchema = pydantic_model_creator(
-    Symptoms, name="SymptomCreateSchema", exclude=["modified_at", "created_at","diseasesymptomsmaps"]
+    Symptoms, name="SymptomCreateSchema", exclude=["modified_at", "created_at", "diseasesymptomsmaps"]
     )
 
 SymptomOutSchema = pydantic_model_creator(
@@ -18,10 +18,12 @@ SymptomOutSchema = pydantic_model_creator(
 
 class SymptomResponseSchema(BaseModel):
     name: str
-    symmetry_answer: Optional[Literal["symmetric", "assymetric"]]
-    severity_answer: Optional[Literal["variable", "persistent"]]
-    age_onset_answer: Optional[Literal["newborn", "0-10y", "11-20y", "21-30y"]]
-    progressive_answer: Optional[Literal["over_days", "over_months", "over_years"]]
+    symmetry_answer: Optional[Literal["symetryczne", "asymetryczne"]]
+    variability_answer: Optional[Literal["zmienne", "stałe"]]
+    age_onset_answer: Optional[Literal["od urodzenia", "poniżej 10 roku życia", "od 10 do 20 roku życia", "od 20 do 30 roku życia", 
+                                       "od 30 do 50 roku życia", "powyżej 50 roku życia"]]
+    progressive_answer: Optional[Literal["dni", "tygodni", "miesięcy", "lat"]]
+    family_answer: Optional[Literal["tak", "nie"]]
     value_answer: Optional[str]
 
 
