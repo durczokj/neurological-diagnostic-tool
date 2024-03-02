@@ -1,0 +1,73 @@
+{ "disease":  [{
+    "name" : "miastenia",
+    "group" :  "zaburzenie transmisji nerwowo-mieśniowej",
+    "subgroup" : "nabyte zaburzenie transmisji nerwowo-mieśniowej",
+    "description" : "choroba o podłożu autoimmunologicznym, w której czynniki autoimmunologiczne wykazują działanie na złącza nerwowo-mięśniowe"
+},
+{
+    "name" : "zespół miasteniczny Lamberta-Eatona",
+    "group" :  "zaburzenie transmisji nerwowo-mieśniowej",
+    "subgroup" : "nabyte zaburzenie transmisji nerwowo-mieśniowej",
+    "description" : "choroba, w której dochodzi do zaburzeż w przekazywaniu impulsów z nerwów do mięśni szkieletowych z powodu nieprawidłowego funkcjonowania kanałów, które pośrednio uczestniczą w przekazywaniu tych impulsów"
+},
+{
+    "name" : "wrodzony zespół miasteniczny",
+    "group" :  "zaburzenie transmisji nerwowo-mieśniowej",
+    "subgroup" : "wrodzone zaburzenie transmisji nerwowo-mieśniowej",
+    "description" : "choroba, w której dochodzi do zaburzeń w przekazywaniu impulsów z nerwów do mieśni szkeletowych"
+},
+{
+    "name" : "CPEO",
+    "group" :  "miopatia",
+    "subgroup" : "miopatia wrodzona",
+    "description" : "choroba mieśni, w których włókna mięśniowe z róznych powodów nie funkcjonują prawidłowo"  
+},
+{
+    "name" : "CIDP",
+    "group" :  "neuropatia",
+    "subgroup" : "neuropatia nabyta",
+    "description" : "choroba, która ma podłoze neurologiczne i dotyczy nerwów obwodowych"  
+},
+{
+    "name" : "MMN",
+    "group" :  "neuropatia",
+    "subgroup" : "neuropatia nabyta",
+    "description" : "choroba, która ma podłoże neurologiczne i dotyczy nerwów obwodowych"  
+},
+{
+    "name" : "CMT",
+    "group" :  "neuropatia",
+    "subgroup" : "neuropatia wrodzona",
+    "description" : "choroba, która ma podłoże neurologiczne i dotyczy nerwów obwodowych"  
+},
+{
+    "name" : "DMD/BMD",
+    "group" :  "miopatia",
+    "subgroup" : "dystorfia",
+    "description" : "choroba mieśni, w których włókna mięśniowe z róznych powodów nie funkcjonują prawidłowo"  
+},
+{
+    "name" : "LGMD",
+    "group" :  "miopatia",
+    "subgroup" : "dystorfia",
+    "description" : "choroba mieśni, w których włókna mięśniowe z róznych powodów nie funkcjonują prawidłowo"  
+},
+{
+    "name" : "DM1/DM2",
+    "group" :  "miopatia",
+    "subgroup" : "dystorfia",
+    "description" : "choroba mieśni, w których włókna mięśniowe z róznych powodów nie funkcjonują prawidłowo"  
+},
+{
+    "name" : "Choroba Pompego",
+    "group" :  "miopatia",
+    "subgroup" : "miopatia wrodzona",
+    "description" : "choroba mieśni, w których włókna mięśniowe z róznych powodów nie funkcjonują prawidłowo"  
+},
+{
+    "name" : "SBMA (choroba Kennedy'ego)",
+    "group" :  "MND",
+    "subgroup" : "MND",
+    "description" : "stwardnienie zanikowe boczne"  
+}]
+}
