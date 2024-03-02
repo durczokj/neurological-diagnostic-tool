@@ -5,7 +5,7 @@ from typing import List
 
 from src.schemas.diseasesymptoms_map import DiseaseSymptomsMapCreateSchema, DiseaseSymptomsMapOutSchema, DiseaseSymptomsMapResponseSchema
 from src.schemas.users import UserOutSchema
-from src.database.models import DiseaseSymptoms_Map
+from src.database.models import DiseaseSymptomsMap
 from src.crud.diseasesymptoms_map import get_disease_symptoms_map, create_disease_symptoms_map, update_disease_symptoms_map, delete_disease_symptoms_map
 from src.auth.jwthandler import get_current_user
 from src.schemas.token import Status
@@ -25,7 +25,7 @@ async def read_disease_symptoms_map_endpoint():
 )
 async def read_disease_symptoms_map_endpoint(diseasesymptomsmap_id: int) -> DiseaseSymptomsMapOutSchema:
     try:
-        return await DiseaseSymptoms_Map.get(id=diseasesymptomsmap_id)
+        return await DiseaseSymptomsMap.get(id=diseasesymptomsmap_id)
     except DoesNotExist:
         raise HTTPException(
             status_code=404,

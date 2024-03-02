@@ -30,7 +30,7 @@ class Symptoms(Model):
 
 
 
-class DiseaseSymptoms_Map(Model):
+class DiseaseSymptomsMap(Model):
     id = fields.IntField(pk=True)
     symptom_name = fields.ForeignKeyField('models.Symptoms', related_name='name')
     disease_name = fields.ForeignKeyField('models.Diseases', related_name='name')
