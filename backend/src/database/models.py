@@ -19,13 +19,14 @@ class Symptoms(Model):
 
     # Boolean fields to indicate whether the symptom can have these characteristics
     can_be_symmetric = fields.BooleanField(default=False)
-    can_have_severity_over_time = fields.BooleanField(default=False)
+    can_be_variable_over_time = fields.BooleanField(default=False)
     can_have_age_of_symptom_onset = fields.BooleanField(default=False)
     can_worsen_over_time = fields.BooleanField(default=False)
+    can_exist_in_family = fields.BooleanField(default=False)
+
     
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
-
 
 
 class Disease(Model):
@@ -42,8 +43,10 @@ class Characteristic(Model):
     name = fields.CharField(max_length=225)
     value = fields.CharField(max_length=225)
 
+
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
+
 
 class DiseaseSymptomsMap(Model):
     id = fields.IntField(pk=True)
@@ -51,7 +54,7 @@ class DiseaseSymptomsMap(Model):
     disease = fields.ForeignKeyField('models.Disease')
     required = fields.BooleanField(default=False)
     excluding = fields.BooleanField(default=False)
-    characteristic = fields.ForeignKeyField('models.Characteristic', related_name='diseases')
+    characteristic = fields.ForeignKeyField('models.Characteristic')
+
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
-

@@ -1,0 +1,68 @@
+{
+    "characteristic": [
+        {
+            "name": "zmienność w czasie",
+            "value": "zmienne" 
+        },
+        {
+            "name": "zmienność w czasie",
+            "value": "stałe" 
+        },
+        {
+            "name": "symetria",
+            "value": "symetryczny" 
+        },
+        {
+            "name": "symetria",
+            "value": "niesymetryczny" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia" 
+        },
+        {
+            "name": "pogorszenie w ciągu",
+            "value": "lat" 
+        },
+        {
+            "name": "pogorszenie w ciągu",
+            "value": "miesięcy" 
+        },
+        {
+            "name": "pogorszenie w ciągu",
+            "value": "tygodni" 
+        },
+        {
+            "name": "pogorszenie w ciągu",
+            "value": "dni" 
+        },
+        {
+            "name": "pogorszenie w ciągu",
+            "value": "brak" 
+        },
+        {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak" 
+        },
+        {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie" 
+        }
+    ]
+}
