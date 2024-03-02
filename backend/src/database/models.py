@@ -50,14 +50,11 @@ class Characteristic(Model):
 
 class DiseaseSymptomsMap(Model):
     id = fields.IntField(pk=True)
-    symptom_name = fields.ForeignKeyField('models.Symptoms')
-    disease_name = fields.ForeignKeyField('models.Diseases')
-    symptom_name = fields.CharField(max_length=512)
-    disease_name = fields.CharField(max_length=512)
+    symptom = fields.ForeignKeyField('models.Symptoms')
+    disease = fields.ForeignKeyField('models.Diseases')
     required = fields.BooleanField(default=False)
     excluding = fields.BooleanField(default=False)
     characteristic = fields.ForeignKeyField('models.Characteristics')
-    characteristic = fields.CharField(max_length=512)
 
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
