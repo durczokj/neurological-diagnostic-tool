@@ -54,7 +54,7 @@ class DiseaseSymptomsMap(Model):
     disease = fields.ForeignKeyField('models.Disease')
     required = fields.BooleanField(default=False)
     excluding = fields.BooleanField(default=False)
-    characteristic = fields.ForeignKeyField('models.Characteristics')
+    characteristic = fields.ForeignKeyField('models.Characteristic')
 
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)

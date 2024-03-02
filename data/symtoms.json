@@ -1,10 +1,10 @@
 {
     "symptoms": [
         {
-            "name": "string",
-            "display_name": "string",
-            "description": "string",
-            "media": "string",
+            "name": "ptoza",
+            "display_name": "ptoza",
+            "description": "opadanie powiek",
+            "media": "to be added",
             "group": "string",
             "can_be_symmetric": false,
             "can_have_severity_over_time": false,
