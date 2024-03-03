@@ -63,6 +63,34 @@
         {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie" 
+        },
+        {
+            "name": "występowanie u pacjenta",
+            "value": "nie" 
+        },
+        {
+            "name": "występowanie u pacjenta",
+            "value": "tak" 
+        },
+        {
+            "name": "występowanie u pacjenta",
+            "value": "nie" 
+        },
+        {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        {
+            "name": "ck_level",
+            "value": "powyżej normy do 1000"
+        },
+        {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        {
+            "name": "ck_level",
+            "value": "powyżej 10000"
         }
     ]
 }

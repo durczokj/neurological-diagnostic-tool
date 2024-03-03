@@ -12,7 +12,6 @@ async def get_disease_symptoms_map():
 
 async def create_disease_symptoms_map(diseasesymptomsmap, current_user) -> DiseaseSymptomsMapOutSchema:
     diseasesymptomsmap_dict = diseasesymptomsmap.dict(exclude_unset=True)
-    diseasesymptomsmap_dict["author_id"] = current_user.id
     diseasesymptomsmap_obj = await DiseaseSymptomsMap.create(**diseasesymptomsmap_dict)
     return await DiseaseSymptomsMapOutSchema.from_tortoise_orm(diseasesymptomsmap_obj)
 

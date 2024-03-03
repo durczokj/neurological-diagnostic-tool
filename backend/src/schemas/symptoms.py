@@ -23,8 +23,7 @@ class SymptomResponseSchema(BaseModel):
     age_onset_answer: Optional[Literal["od urodzenia", "poniżej 10 roku życia", "od 10 do 20 roku życia", "od 20 do 30 roku życia", 
                                        "od 30 do 50 roku życia", "powyżej 50 roku życia"]]
     progressive_answer: Optional[Literal["dni", "tygodni", "miesięcy", "lat"]]
-    family_answer: Optional[Literal["tak", "nie"]]
-    value_answer: Optional[str]
+    value_answer: Optional[int]
 
 
 
