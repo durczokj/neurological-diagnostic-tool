@@ -51,7 +51,7 @@ async def push_data_to_db(directory, session):
     for filename in os.listdir(current_directory):
         if filename.endswith('.json'):
             endpoint = filename.replace('.json', '')
-            with open(filename, 'r') as file:
+            with open(filename, 'r', encoding="utf-8") as file:
                 data = json.load(file)[endpoint]
                 for record in data:
                    record = json.dumps(record)
