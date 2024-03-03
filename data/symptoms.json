@@ -205,33 +205,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Pogorszenie w czasie infekcji",
-            "display_name": "Pogorszenie w czasie infekcji",
-            "description": "Pogorszenie w czasie infekcji",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": false,
-            "can_be_variable_over_time": false,
-            "can_have_age_of_symptom_onset": false,
-            "can_worsen_over_time": false,
-            "can_exist_in_family": false
-        },
-        {
             "name": "Dystalny niedowład kończyn górnych",
             "display_name": "Dystalny niedowład kończyn górnych",
             "description": "Osłabienie siły dłoni, uścisku dłoni, siły w palcach rąk, czynności precyzyjnych",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": true,
-            "can_be_variable_over_time": true,
-            "can_have_age_of_symptom_onset": true,
-            "can_worsen_over_time": true,
-            "can_exist_in_family": true
-        },
-        {
-            "name": "dystalny niedowład kończyn dolnych",
-            "display_name": "dystalny niedowład kończyn dolnych",
-            "description": "opadanie stopy, trudności w chodzeniu na palcach, na piętach",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": true,
@@ -268,18 +244,6 @@
             "name": "Objawy kończynowe są znacznie bardziej nasilone niż oczne i opuszkowe",
             "display_name": "objawy kończynowe są znacznie bardziej nasilone niż oczne i opuszkowe",
             "description": "objawy kończynowe są znacznie bardziej nasilone niż oczne i opuszkowe",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": false,
-            "can_be_variable_over_time": false,
-            "can_have_age_of_symptom_onset": false,
-            "can_worsen_over_time": false,
-            "can_exist_in_family": false
-        },
-        {
-            "name": "Niedowład proksymalny bardziej nasilony niż dystalny",
-            "display_name": "Niedowład proksymalny bardziej nasilony niż dystalny",
-            "description": "Niedowład proksymalny bardziej nasilony niż dystalny",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -352,18 +316,6 @@
             "name": "Zaparcia",
             "display_name": "Zaparcia",
             "description": "Zaparcia",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": false,
-            "can_be_variable_over_time": false,
-            "can_have_age_of_symptom_onset": false,
-            "can_worsen_over_time": false,
-            "can_exist_in_family": false
-        },
-        {
-            "name": "Arefleksja",
-            "display_name": "Arefleksja",
-            "description": "Brak odruchów w badaniu neurologicznym",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -816,7 +768,6 @@
             "can_worsen_over_time": false,
             "can_exist_in_family": false
         },
-
         {
             "name": "Dominujące zajęcie mięśni twarzy",
             "display_name": "Dominujące zajęcie mięśni twarzy",
@@ -833,18 +784,6 @@
             "name": "Dominujące zajęcie mięśni obręczy barkowej (ramion) i biodrowej (ud)",
             "display_name": "Dominujące zajęcie obręczy barkowej (ramion) i biodrowej (ud)",
             "description": "Dominujaąe zajęcie obręczy barkowej (ramion) i biodrowej (ud)",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": false,
-            "can_be_variable_over_time": false,
-            "can_have_age_of_symptom_onset": false,
-            "can_worsen_over_time": false,
-            "can_exist_in_family": true
-        },
-        {
-            "name": "Dominujące zajęcie mięśni obręczy barkowej (ramion) i biodrowej (ud)",
-            "display_name": "Dominujące zajęcie obręczy barkowej (ramion) i biodrowej (ud)",
-            "description": "Dominująe zajęcie obręczy barkowej (ramion) i biodrowej (ud)",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -929,18 +868,6 @@
             "name": "Zaburzenia rytmu serca",
             "display_name": "Zaburzenia rytmu serca",
             "description": "Zaburzenia rytmu serca",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": false,
-            "can_be_variable_over_time": false,
-            "can_have_age_of_symptom_onset": false,
-            "can_worsen_over_time": false,
-            "can_exist_in_family": false
-        },
-        {
-            "name": "Retinopatia wysiękowa",
-            "display_name": "Retinopatia wysiękowa",
-            "description": "Retinopatia wysiękowa",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -1082,18 +1009,6 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Zaparcia",
-            "display_name": "Zaparcia",
-            "description": "Zaparcia",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": false,
-            "can_be_variable_over_time": false,
-            "can_have_age_of_symptom_onset": false,
-            "can_worsen_over_time": false,
-            "can_exist_in_family": false
-        },
-        {
             "name": "Kamica żółciowa",
             "display_name": "Kamica żółciowa",
             "description": "Kamica żółciowa",
@@ -1141,6 +1056,5 @@
             "can_worsen_over_time": false,
             "can_exist_in_family": false
         }
-
     ]
 }
