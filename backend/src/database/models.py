@@ -39,13 +39,13 @@ class Disease(Model):
     modified_at = fields.DatetimeField(auto_now=True)
 
 class Characteristic(Model):
-    id = fields.IntField(pk=True)
     name = fields.CharField(max_length=225)
     value = fields.CharField(max_length=225)
 
-
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)
+    class Meta:
+        unique_together = ('name', 'value')
 
 
 class DiseaseSymptomsMap(Model):
@@ -54,7 +54,7 @@ class DiseaseSymptomsMap(Model):
     disease = fields.ForeignKeyField('models.Disease')
     required = fields.BooleanField(default=False)
     excluding = fields.BooleanField(default=False)
-    characteristic = fields.ForeignKeyField('models.Characteristic')
+    characteristic = fields.ForeignKeyField('models.Characteristic', null=True)
 
     created_at = fields.DatetimeField(auto_now_add=True)
     modified_at = fields.DatetimeField(auto_now=True)

@@ -6,7 +6,7 @@
         },
         {
             "name": "zmienność w czasie",
-            "value": "stałe" 
+            "value": "stałe/postępujące" 
         },
         {
             "name": "symetria",
@@ -14,7 +14,7 @@
         },
         {
             "name": "symetria",
-            "value": "niesymetryczny" 
+            "value": "asymetryczny" 
         },
         {
             "name": "wiek podczas wystapienia pierwszych objawów",
@@ -62,18 +62,6 @@
         },
         {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
-            "value": "nie" 
-        },
-        {
-            "name": "występowanie u pacjenta",
-            "value": "nie" 
-        },
-        {
-            "name": "występowanie u pacjenta",
-            "value": "tak" 
-        },
-        {
-            "name": "występowanie u pacjenta",
             "value": "nie" 
         },
         {

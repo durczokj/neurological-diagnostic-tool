@@ -1,9 +1,9 @@
 {
     "symptoms": [
         {
-            "name": "ptoza",
-            "display_name": "ptoza",
-            "description": "opadanie powiek",
+            "name": "Ptoza",
+            "display_name": "Ptoza",
+            "description": "Opadanie powiek",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": true,
@@ -13,9 +13,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "dwojenie obrazu",
-            "display_name": "dwojenie obrazu",
-            "description": "widzenie podwójnie",
+            "name": "Dwojenie obrazu",
+            "display_name": "Dwojenie obrazu",
+            "description": "Widzenie podwójnie",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -25,9 +25,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "dysfagia",
-            "display_name": "dysfagia",
-            "description": "zaburzenia połykania, krztuszenie się pokarmami/płynami",
+            "name": "Dysfagia",
+            "display_name": "Dysfagia",
+            "description": "Zaburzenia połykania, krztuszenie się pokarmami/płynami",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -37,9 +37,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "zaburzenia gryzienia/żucia pokarmów",
-            "display_name": "zaburzenia gryzienia/żucia pokarmów",
-            "description": "trudności z gryzieniem/żuciem pokarmów",
+            "name": "Zaburzenia gryzienia/żucia pokarmów",
+            "display_name": "Zaburzenia gryzienia/żucia pokarmów",
+            "description": "Trudności z gryzieniem/żuciem pokarmów",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -49,9 +49,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "duszność",
-            "display_name": "duszność",
-            "description": "duszność",
+            "name": "Duszność",
+            "display_name": "Duszność",
+            "description": "Duszność",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -61,9 +61,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "zaburzenia mowy",
-            "display_name": "zaburzenia mowy",
-            "description": "mowa nosowa, dyzartria (mowa niewyraźna)",
+            "name": "Zaburzenia mowy",
+            "display_name": "Zaburzenia mowy",
+            "description": "Mowa nosowa, dyzartria (mowa niewyraźna)",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -73,9 +73,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "proksymalny niedowład kończyn górnych",
-            "display_name": "proksymalny niedowład kończyn górnych",
-            "description": "osłabienie siły w ramionach, problemy z unoszeniem ramion",
+            "name": "Proksymalny niedowład kończyn górnych",
+            "display_name": "Proksymalny niedowład kończyn górnych",
+            "description": "Osłabienie siły w ramionach, problemy z unoszeniem ramion",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": true,
@@ -85,9 +85,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "proksymalny niedowład kończyn dolnych",
-            "display_name": "proksymalny niedowład kończyn dolnych",
-            "description": "osłabienie siły ud, problemy ze wstawaniem z krzesła, z wchodzeniem po schodach, problem ze wstaniem z przysiadu",
+            "name": "Proksymalny niedowład kończyn dolnych",
+            "display_name": "Proksymalny niedowład kończyn dolnych",
+            "description": "Osłabienie siły ud, problemy ze wstawaniem z krzesła, z wchodzeniem po schodach, problem ze wstaniem z przysiadu",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": true,
@@ -97,9 +97,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "poziom CK większy niż 1000",
-            "display_name": "poziom CK większy niż 1000",
-            "description": "zbyt wysoki poziom CK",
+            "name": "Poziom CK większy niż 1000",
+            "display_name": "Poziom CK większy niż 1000",
+            "description": "Zbyt wysoki poziom CK",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -109,9 +109,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "poziom CK w normie",
-            "display_name": "poziom CK w normie",
-            "description": "nowmalnypoziom CK",
+            "name": "Poziom CK w normie",
+            "display_name": "Poziom CK w normie",
+            "description": "Normalny poziom CK",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -217,7 +217,7 @@
             "can_exist_in_family": true
         },
         {
-            "name": "dystalny niedowład kończyn dolnych",
+            "name": "Dystalny niedowład kończyn dolnych",
             "display_name": "dystalny niedowład kończyn dolnych",
             "description": "opadanie stopy, trudności w chodzeniu na palcach, na piętach",
             "media": "to be added",
@@ -1156,6 +1156,90 @@
             "name": "Zanik jąder",
             "display_name": "Zanik jąder",
             "description": "Zanik jąder",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Powiększony język",
+            "display_name": "Powiększony język",
+            "description": "Powiększony język",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Przewlekła niewydolność oddechowa",
+            "display_name": "Przewlekła niewydolność oddechowa",
+            "description": "Poranne bóle głowy, przerywany sen, nadmierna senność w ciągu dnia",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Przodopochylenie miednicy",
+            "display_name": "Przodopochylenie miednicy",
+            "description": "Przodopochylenie miednicy",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Skolioza",
+            "display_name": "Skolioza",
+            "description": "Skolioza",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Kifoza",
+            "display_name": "Kifoza",
+            "description": "Choroba kręgosłupa",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Osteoporoza",
+            "display_name": "Osteoporoza",
+            "description": "Osteoporoza",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Osteoporoza",
+            "display_name": "Osteoporoza",
+            "description": "Osteoporoza",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
