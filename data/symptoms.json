@@ -1055,6 +1055,114 @@
             "can_have_age_of_symptom_onset": false,
             "can_worsen_over_time": false,
             "can_exist_in_family": false
+        },
+        {
+            "name": "Ból mięśni",
+            "display_name": "Ból mięśni",
+            "description": "Ból mięśni",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Skurcze mięśni",
+            "display_name": "Skurcze mięśni",
+            "description": "Skurcze mięśni",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Nasilenie niedowładu na zimnie",
+            "display_name": "Nasilenie niedowładu na zimnie",
+            "description": "Nasilenie niedowładu na zimnie",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Powolny postęp w ciągu dekad",
+            "display_name": "Powolny postęp w ciągu dekad",
+            "description": "Powolny postęp w ciągu dekad",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Płeć męska",
+            "display_name": "Płeć męska",
+            "description": "Płeć męska",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Ginekomastia (powiększenie piersi)",
+            "display_name": "Ginekomastia (powiększenie piersi)",
+            "description": "Ginekomastia (powiększenie piersi)",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Niealkoholowe stłuszczenie wątroby",
+            "display_name": "Niealkoholowe stłuszczenie wątroby",
+            "description": "Niealkoholowe stłuszczenie wątroby",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Niepłodność - oligospermia",
+            "display_name": "Niepłodność - oligospermia",
+            "description": "Niepłodność - oligospermia",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "Zanik jąder",
+            "display_name": "Zanik jąder",
+            "description": "Zanik jąder",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
         }
     ]
 }
