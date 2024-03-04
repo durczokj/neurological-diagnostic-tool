@@ -21,8 +21,8 @@ class MappedInsert(BaseInsert):
             data_processed = self.get_id_by_name_value(characteristics, data)
             for record in data_processed:
                 print(record)
-                await self.session.post(f'http://localhost:5001/{self.endpoint}', record)
-                #await self.insert(self.endpoint, record)
+                #await self.session.post(f'http://localhost:5001/{self.endpoint}', record)
+                await self.insert(self.endpoint, record)
 
     async def get_characteristics(self):
         characteristics = await self.session.get('http://localhost:5001/characteristic')
@@ -40,15 +40,14 @@ class MappedInsert(BaseInsert):
 
         # Update the characteristic_id field in diseases based on the matching name and value
         for mapping in data:
-            if mapping['characteristic_id'] != "":
+            if mapping['characteristic_id'] != None:
                 char_name = mapping['characteristic_id']['name']
                 char_value = mapping['characteristic_id']['value']
                 mapping['characteristic_id'] = characteristics_dict.get((char_name, char_value), None)
         return data
         
 
-insert = MappedInsert('marta', 'pass', 'disease-symptoms-map/', 'diseasesymptomsmap.json')
-insert.run()
+
 
     
 

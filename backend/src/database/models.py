@@ -39,6 +39,7 @@ class Disease(Model):
     modified_at = fields.DatetimeField(auto_now=True)
 
 class Characteristic(Model):
+    id = fields.IntField(pk=True)
     name = fields.CharField(max_length=225)
     value = fields.CharField(max_length=225)
 

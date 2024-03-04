@@ -58,7 +58,7 @@ class BaseInsert():
             raise e #Exception('Login failed') from e
 
     async def insert(self, endpoint, data):
-        response = await self.session.post(f'http://localhost:5001/{endpoint}', data)
+        response = await self.session.post(f'http://localhost:5001/{endpoint}', json=data)
         if response.status_code == 200:
             print(f"Request succeeded for table {endpoint}")
         else:
@@ -74,7 +74,6 @@ class BaseInsert():
                 with open(self.directory+filename, 'r', encoding="utf-8") as file:
                     data = json.load(file)[endpoint]
                     for record in data:
-                        record = json.dumps(record)
                         await self.insert(endpoint, record)
 
     async def health_check_loop(self):
@@ -94,7 +93,8 @@ class BaseInsert():
             await self.login_or_register()
             await self.push_data_to_db()
 
+
 '''
 insert = BaseInsert("marta", "pass")
-insert.insert()
+insert.run()
 '''

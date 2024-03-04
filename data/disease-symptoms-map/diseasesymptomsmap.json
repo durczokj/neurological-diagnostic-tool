@@ -542,49 +542,49 @@
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "miastenia",
-        "symptom_id": "RZS - choroba współistniejąca"
+        "symptom_id": "RZS"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "miastenia",
-        "symptom_id": "Hashimoto lub niedoczynność tarczycy - choroba współistniejąca"
+        "symptom_id": "Hashimoto lub niedoczynność tarczycy"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "miastenia",
-        "symptom_id": "Choroba Graves-Basedowa - choroba współistniejąca"
+        "symptom_id": "Choroba Graves-Basedowa"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "miastenia",
-        "symptom_id": "Cukrzyca t1 - choroba współistniejącaPogorszenie po wysiłku"
+        "symptom_id": "Cukrzyca t1Pogorszenie po wysiłku"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "miastenia",
         "symptom_id": "Poprawa po odpoczynku"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "miastenia",
         "symptom_id": "Pogorszenie w czasie infekcji"
     } ,
     {
         "required": false,
         "excluding": true,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "miastenia",
         "symptom_id": "Poziom CK większy niż 1000"
     } ,
@@ -1291,77 +1291,77 @@
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
-        "symptom_id": "Nowotwór drobnokomórkowy płuca - choroba współistniejąca"
+        "symptom_id": "Nowotwór drobnokomórkowy płuca"
     } ,
     {
         "required": true,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Objawy kończynowe są znacznie bardziej nasilone niż oczne i opuszkowe"
     } ,
     {
         "required": true,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Niedowład proksymalny bardziej nasilony niż dystalny"
     } ,
     {
         "required": false,
         "excluding": true,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Poziom CK większy niż 1000"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Pogorszenie w czasie infekcji"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Suchość w jamie ustnej"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Suchość spojówek"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Omdlenia ortostatyczne"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Impotencja"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Zaparcia"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
         "symptom_id": "Arefleksja"
     } ,
@@ -1908,93 +1908,93 @@
     {
         "required": false,
         "excluding": true,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
         "symptom_id": "Poziom CK większy niż 1000"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
         "symptom_id": "Cichy płacz"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
         "symptom_id": "Artrogrypoza"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
         "symptom_id": "Bezdechy w niemowlęctwie"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
         "symptom_id": "Hipotonia"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
         "symptom_id": "Osłabiona reakcja źrenic na światło"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Dysmorfia twarzy - choroba współistniejąca"
+        "symptom_id": "Dysmorfia twarzy"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Padaczka - choroba współistniejąca"
+        "symptom_id": "Padaczka"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Opóźnienie rozwoju intelektualnego - choroba współistniejąca"
+        "symptom_id": "Opóźnienie rozwoju intelektualnego"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Zespół nerczycowy - choroba współistniejąca"
+        "symptom_id": "Zespół nerczycowy"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Ataksja epizodyczna typu 2 - choroba współistniejąca"
+        "symptom_id": "Ataksja epizodyczna typu 2"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Pęcherzowe oddzielanie się naskórka - choroba współistniejąca"
+        "symptom_id": "Pęcherzowe oddzielanie się naskórka"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Porażenie strun głosowych podczas niemowlęctwa - choroba współistniejąca"
+        "symptom_id": "Porażenie strun głosowych podczas niemowlęctwa"
     } ,
     {
         "required": false,
@@ -2059,7 +2059,7 @@
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "CPEO",
         "symptom_id": "Dwojenie obrazu"
     } ,
@@ -2106,7 +2106,7 @@
     {
         "required": true,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "CPEO",
         "symptom_id": "Oftalmopegia"
     } ,
@@ -2423,30 +2423,30 @@
     {
         "required": false,
         "excluding": true,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "CIDP",
         "symptom_id": "Poziom CK większy niż 1000"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "CIDP",
-        "symptom_id": "Gammapatia monoklonalna - choroba współistniejąca"
+        "symptom_id": "Gammapatia monoklonalna"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "CIDP",
-        "symptom_id": "Cukrzyca t1 - choroba współistniejąca"
+        "symptom_id": "Cukrzyca t1"
     } ,
     {
         "required": false,
         "excluding": false,
-        "characteristic_id": "",
+        "characteristic_id": null,
         "disease_id": "CIDP",
-        "symptom_id": "HIV - choroba współistniejąca"
+        "symptom_id": "HIV"
     } 
 ]
 }

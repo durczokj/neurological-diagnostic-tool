@@ -121,9 +121,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "RZS - choroba współistniejąca",
-            "display_name": "RZS - choroba współistniejąca",
-            "description": "RZS - choroba współistniejąca",
+            "name": "RZS",
+            "display_name": "RZS",
+            "description": "RZS",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -133,9 +133,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Hashimoto lub niedoczynność tarczycy - choroba współistniejąca",
-            "display_name": "Hashimoto lub niedoczynność tarczycy - choroba współistniejąca",
-            "description": "Hashimoto lub niedoczynność tarczycy - choroba współistniejąca",
+            "name": "Hashimoto lub niedoczynność tarczycy",
+            "display_name": "Hashimoto lub niedoczynność tarczycy",
+            "description": "Hashimoto lub niedoczynność tarczycy",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -145,9 +145,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Choroba Graves-Basedowa - choroba współistniejąca",
-            "display_name": "Choroba Graves-Basedowa - choroba współistniejąca",
-            "description": "Choroba Graves-Basedowa - choroba współistniejąca",
+            "name": "Choroba Graves-Basedowa",
+            "display_name": "Choroba Graves-Basedowa",
+            "description": "Choroba Graves-Basedowa",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -157,9 +157,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Cukrzyca t1 - choroba współistniejąca",
+            "name": "Cukrzyca t1",
             "display_name": "Cukrzyca t1  choroba współistniejąca",
-            "description": "Cukrzyca t1 - choroba współistniejąca",
+            "description": "Cukrzyca t1",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -229,9 +229,9 @@
             "can_exist_in_family": true
         },
         {
-            "name": "Nowotwór drobnokomórkowy płuca - choroba współistniejąca",
-            "display_name": "Nowotwór drobnokomórkowy płuca - choroba współistniejąca",
-            "description": "Nowotwór drobnokomórkowy płuca - choroba współistniejąca",
+            "name": "Nowotwór drobnokomórkowy płuca",
+            "display_name": "Nowotwór drobnokomórkowy płuca",
+            "description": "Nowotwór drobnokomórkowy płuca",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -409,9 +409,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Dysmorfia twarzy - choroba współistniejąca",
-            "display_name": "Dysmorfia twarzy - choroba współistniejąca",
-            "description": "Dysmorfia twarzy - choroba współistniejąca",
+            "name": "Dysmorfia twarzy",
+            "display_name": "Dysmorfia twarzy",
+            "description": "Dysmorfia twarzy",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -421,9 +421,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Padaczka - choroba współistniejąca",
-            "display_name": "Padaczka - choroba współistniejąca",
-            "description": "Padaczka - choroba współistniejąca",
+            "name": "Padaczka",
+            "display_name": "Padaczka",
+            "description": "Padaczka",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -433,9 +433,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Opóźnienie rozwoju intelektualnego - choroba współistniejąca",
-            "display_name": "Opóźnienie rozwoju intelektualnego - choroba współistniejąca",
-            "description": "Opóźnienie rozwoju intelektualnego - choroba współistniejąca",
+            "name": "Opóźnienie rozwoju intelektualnego",
+            "display_name": "Opóźnienie rozwoju intelektualnego",
+            "description": "Opóźnienie rozwoju intelektualnego",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -445,9 +445,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Zespół nerczycowy - choroba współistniejąca",
-            "display_name": "Zespół nerczycowy - choroba współistniejąca",
-            "description": "Zespół nerczycowy - choroba współistniejąca",
+            "name": "Zespół nerczycowy",
+            "display_name": "Zespół nerczycowy",
+            "description": "Zespół nerczycowy",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -457,9 +457,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Ataksja epizodyczna typu 2 - choroba współistniejąca",
-            "display_name": "Ataksja epizodyczna typu 2 - choroba współistniejąca",
-            "description": "Ataksja epizodyczna typu 2 - choroba współistniejąca",
+            "name": "Ataksja epizodyczna typu 2",
+            "display_name": "Ataksja epizodyczna typu 2",
+            "description": "Ataksja epizodyczna typu 2",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -469,9 +469,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Pęcherzowe oddzielanie się naskórka - choroba współistniejąca",
-            "display_name": "Pęcherzowe oddzielanie się naskórka - choroba współistniejąca",
-            "description": "Pęcherzowe oddzielanie się naskórka - choroba współistniejąca",
+            "name": "Pęcherzowe oddzielanie się naskórka",
+            "display_name": "Pęcherzowe oddzielanie się naskórka",
+            "description": "Pęcherzowe oddzielanie się naskórka",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -481,9 +481,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Porażenie strun głosowych podczas niemowlęctwa - choroba współistniejąca",
-            "display_name": "Porażenie strun głosowych podczas niemowlęctwa - choroba współistniejąca",
-            "description": "Porażenie strun głosowych podczas niemowlęctwa - choroba współistniejąca",
+            "name": "Porażenie strun głosowych podczas niemowlęctwa",
+            "display_name": "Porażenie strun głosowych podczas niemowlęctwa",
+            "description": "Porażenie strun głosowych podczas niemowlęctwa",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -493,9 +493,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Gammapatia monoklonalna - choroba współistniejąca",
-            "display_name": "Gammapatia monoklonalna  - choroba współistniejąca",
-            "description": "Gammapatia monoklonalna  - choroba współistniejąca",
+            "name": "Gammapatia monoklonalna",
+            "display_name": "Gammapatia monoklonalna ",
+            "description": "Gammapatia monoklonalna ",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -505,9 +505,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "HIV - choroba współistniejąca",
-            "display_name": "HIV  - choroba współistniejąca",
-            "description": "HIV  - choroba współistniejąca",
+            "name": "HIV",
+            "display_name": "HIV ",
+            "description": "HIV ",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -709,9 +709,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Kardiomiopatia - choroba współistniejąca",
-            "display_name": "Kardiomiopatia - choroba współistniejąca",
-            "description": "Kardiomiopatia - choroba współistniejąca",
+            "name": "Kardiomiopatia",
+            "display_name": "Kardiomiopatia",
+            "description": "Kardiomiopatia",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
