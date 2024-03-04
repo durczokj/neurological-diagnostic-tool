@@ -1,8 +1,8 @@
 import json
 
 is_initial_symptom = False
-#my_symptoms = ["Proksymalny niedowład kończyn górnych", "Proksymalny niedowład kończyn dolnych",
-#               "Dystalny niedowład kończyn górnych", "Dystalny niedowład kończyn dolnych" ]
+#my_symptoms = ["Dystalny niedowład kończyn górnych", "Dystalny niedowład kończyn dolnych" , 
+#                "Proksymalny niedowład kończyn górnych", "Proksymalny niedowład kończyn dolnych" ]
              
 #              'Ptoza', "Dwojenie obrazu", "Oftalmopegia","Dysfagia", "Zaburzenia gryzienia/żucia pokarmów", "Duszność",
 #                "Zaburzenia mowy", "Proksymalny niedowład kończyn górnych", "Proksymalny niedowład kończyn dolnych",
@@ -10,23 +10,22 @@ is_initial_symptom = False
 #my_symptoms = ["RZS - choroba współistniejąca","Hashimoto lub niedoczynność tarczycy - choroba współistniejąca","Choroba Graves-Basedowa - choroba współistniejąca","Cukrzyca t1 - choroba współistniejąca"
 #               "Pogorszenie po wysiłku", "Poprawa po odpoczynku","Pogorszenie w czasie infekcji"]
 
-#my_symptoms = ["Nowotwór drobnokomórkowy płuca - choroba współistniejąca","Objawy kończynowe są znacznie bardziej nasilone niż oczne i opuszkowe", "Niedowład proksymalny bardziej nasilony niż dystalny",
-#                "Poziom CK większy niż 1000","Pogorszenie w czasie infekcji", "Suchość w jamie ustnej", "Suchość spojówek",
-#                "Omdlenia ortostatyczne", "Impotencja", "Zaparcia", "Arefleksja"]
+#my_symptoms = ["Niedowład dystalny bardziej nasilony niż proksymalny", "Niedowład kończyn górnych większy niż kończyn dolnych",
+#                "Poziom CK większy niż 1000","Pogorszenie w czasie infekcji", "Zanik mięśni", "Zaburzenia czucia"]
+               # "Suchość w jamie ustnej", "Suchość spojówek","Omdlenia ortostatyczne", "Impotencja", "Zaparcia", "Arefleksja"]
 
 
+my_symptoms = ["Zaburzenia czucia", "Dominujące zajęcie mięśni obręczy barkowej (ramion) i biodrowej (ud)" ]
 
-
-
-my_symptoms = ["Poziom CK większy niż 1000", "Gammapatia monoklonalna - choroba współistniejąca", "Cukrzyca t1 - choroba współistniejąca",  "HIV - choroba współistniejąca"]
-
-
+#my_symptoms = ["Poziom CK w normie", "Płeć żeńska", "Kardiomiopatia", "Opóźnienie rozwoju intelektualnego"
+#               "Wstawanie z podłogi wspinając sę po sobie - objaw Gowers'a", "Hiperlordoza lędźwiowa", "Hipotonia",
+ #               ]
 
 my_dict = {
         "required": "false",
         "excluding": "false",
-        "characteristic_id": "",
-        "disease_id": "CIDP",
+        "characteristic_id": None,
+        "disease_id": "LGMD",
         "symptom_id": "Ptoza"
         }
 
