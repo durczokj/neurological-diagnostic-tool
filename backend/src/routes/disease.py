@@ -67,71 +67,42 @@ async def print_diseases_query_set(diseases):
         diseases_data.append(disease_data)
     print("DiseaseSymptomsMap Objects:", diseases_data)
 
+
 @router.post(
     "/disease/match",
     response_model=List[DiseaseOutSchema],
 )
 async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchema]) -> List[DiseaseOutSchema]:
-    # Convert input symptoms to a format suitable for querying
-    symptom_names = [symptom.symptom.name for symptom in symptoms]
-    symptom_characteristics = {
-        (symptom.symptom.name, symptom.characteristic.name): symptom.characteristic.value
+    # Prepare a list of tuples for symptom names and characteristics for querying
+    symptom_with_characteristics = [
+        (symptom.symptom.name, symptom.characteristic.name, symptom.characteristic.value)
         for symptom in symptoms
-        if symptom.characteristic
-    }
+        if symptom.characteristic  # Ensure symptom has a characteristic
+    ]
 
-    print("Symptom Names:", symptom_names)
-    print("Symptom Characteristics:", symptom_characteristics)
+    # Initialize a dictionary to hold matching characteristic counts per disease
+    disease_matching_count = {}
 
-    # Query for diseases that have a matching symptom map without excluding symptoms
-    diseases = await DiseaseSymptomsMap.filter(
-        symptom__name__in=symptom_names,
-        excluding=False
-    ).distinct().prefetch_related('disease')
-    # print json of diseaseSymptomsMap with all fields
-    await print_diseases_query_set(diseases)
+    for symptom_name, characteristic_name, characteristic_value in symptom_with_characteristics:
+        # Query for matching diseases based on symptom and its characteristic
+        matches = await DiseaseSymptomsMap.filter(
+            symptom__name=symptom_name,
+            characteristic__name=characteristic_name,
+            characteristic__value=characteristic_value,
+            excluding=False
+        ).prefetch_related('disease')
 
-    matching_diseases = []
-    for disease_map in diseases:
-        disease = disease_map.disease
-        
-        # Fetch required and excluding symptoms explicitly
-        required_symptoms = await DiseaseSymptomsMap.filter(disease=disease, required=True).prefetch_related('symptom')
-        excluding_symptoms = await DiseaseSymptomsMap.filter(disease=disease, excluding=True).prefetch_related('symptom')
+        for match in matches:
+            # Update count for each disease found
+            if match.disease.name not in disease_matching_count:
+                disease_matching_count[match.disease.name] = {'disease': match.disease, 'count': 1}
+            else:
+                disease_matching_count[match.disease.name]['count'] += 1
 
-        print("Required Symptoms:", required_symptoms)
-        print("Excluding Symptoms:", excluding_symptoms)
+    # Sort diseases by the number of matching characteristics
+    sorted_diseases = sorted(disease_matching_count.values(), key=lambda x: x['count'], reverse=True)
 
-        # Check if all required symptoms are present
-        if not all(req.symptom.name in symptom_names for req in required_symptoms):
-            continue
-
-        # Check if any excluding symptoms are present
-        if any(exc.symptom.name in symptom_names for exc in excluding_symptoms):
-            continue
-
-        # Count matching characteristics
-        matching_characteristics = 0
-        for symptom_name, characteristic_name in symptom_characteristics.keys():
-            value = symptom_characteristics[(symptom_name, characteristic_name)]
-            if await DiseaseSymptomsMap.filter(
-                disease=disease,
-                symptom__name=symptom_name,
-                characteristic__name=characteristic_name,
-                characteristic__value=value
-            ).exists():
-                matching_characteristics += 1
-
-        print("Matching Characteristics:", matching_characteristics)
-
-        matching_diseases.append((disease, matching_characteristics))
-
-    # Order diseases by the number of matching characteristics
-    matching_diseases.sort(key=lambda x: x[1], reverse=True)
-    
-    # Convert to the expected output schema
-    result = [await DiseaseOutSchema.from_tortoise_orm(disease[0]) for disease in matching_diseases]
-    
-    print("Result:", result)
+    # Extract diseases and convert to the expected output schema
+    result = [await DiseaseOutSchema.from_tortoise_orm(entry['disease']) for entry in sorted_diseases]
 
     return result
