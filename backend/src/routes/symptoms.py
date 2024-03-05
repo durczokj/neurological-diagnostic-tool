@@ -80,16 +80,16 @@ async def get_symptom_suggestions(keyword: str):
 
 
 
-@router.get(
-    "/which_symptom_to_ask_for",
-    response_model=SymptomOutSchema,
-)
-async def get_random_symptom(symptoms: List[SymptomOutSchema]) -> SymptomOutSchema:
-    random_symptom_name = "string"
-    try:
-        return await Symptoms.get(name=random_symptom_name)
-    except DoesNotExist:
-        raise HTTPException(
-            status_code=404,
-            detail="Symptom does not exist",
-        )
+# @router.get(
+#     "/which_symptom_to_ask_for",
+#     response_model=DiseaseOutSchema,
+# )
+# async def get_random_symptom(symptoms: List[DiseaseSymptomsMapOutSchema]) -> DiseaseOutSchema:
+#     random_symptom_name = "string"
+#     try:
+#         return await Symptoms.get(name=random_symptom_name)
+#     except DoesNotExist:
+#         raise HTTPException(
+#             status_code=404,
+#             detail="Symptom does not exist",
+#         )
