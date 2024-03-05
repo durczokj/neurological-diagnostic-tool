@@ -53,7 +53,19 @@ async def delete_disease_endpoint(
 ):
     return await delete_disease(name)
 
-
+async def print_diseases_query_set(diseases):
+    diseases_data = []
+    for disease_map in diseases:
+        disease = disease_map.disease  # Assuming `disease` is a related object you want to include
+        symptom = await disease_map.symptom  # You need to fetch related objects like this if they are not already prefetched
+        disease_data = {
+            "DiseaseSymptomsMap ID": disease_map.id,
+            "Disease Name": disease.name if disease else None,
+            "Symptom Name": symptom.name if symptom else None,
+            # Add more fields here as needed
+        }
+        diseases_data.append(disease_data)
+    print("DiseaseSymptomsMap Objects:", diseases_data)
 
 @router.post(
     "/disease/match",
@@ -68,11 +80,16 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
         if symptom.characteristic
     }
 
+    print("Symptom Names:", symptom_names)
+    print("Symptom Characteristics:", symptom_characteristics)
+
     # Query for diseases that have a matching symptom map without excluding symptoms
     diseases = await DiseaseSymptomsMap.filter(
         symptom__name__in=symptom_names,
         excluding=False
     ).distinct().prefetch_related('disease')
+    # print json of diseaseSymptomsMap with all fields
+    await print_diseases_query_set(diseases)
 
     matching_diseases = []
     for disease_map in diseases:
@@ -81,6 +98,9 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
         # Fetch required and excluding symptoms explicitly
         required_symptoms = await DiseaseSymptomsMap.filter(disease=disease, required=True).prefetch_related('symptom')
         excluding_symptoms = await DiseaseSymptomsMap.filter(disease=disease, excluding=True).prefetch_related('symptom')
+
+        print("Required Symptoms:", required_symptoms)
+        print("Excluding Symptoms:", excluding_symptoms)
 
         # Check if all required symptoms are present
         if not all(req.symptom.name in symptom_names for req in required_symptoms):
@@ -102,6 +122,8 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
             ).exists():
                 matching_characteristics += 1
 
+        print("Matching Characteristics:", matching_characteristics)
+
         matching_diseases.append((disease, matching_characteristics))
 
     # Order diseases by the number of matching characteristics
@@ -110,4 +132,6 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
     # Convert to the expected output schema
     result = [await DiseaseOutSchema.from_tortoise_orm(disease[0]) for disease in matching_diseases]
     
+    print("Result:", result)
+
     return result
