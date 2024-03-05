@@ -18,18 +18,16 @@ async def create_disease_symptoms_map(diseasesymptomsmap, current_user) -> Disea
 
 async def update_disease_symptoms_map(diseasesymptomsmap_id, diseasesymptomsmap, current_user) -> DiseaseSymptomsMapOutSchema:
     try:
-        db_diseasesymptomsmap = await DiseaseSymptomsOutSchema.from_queryset_single(DiseaseSymptomsMap.get(id=diseasesymptomsmap_id))
+        db_diseasesymptomsmap = await DiseaseSymptomsMapOutSchema.from_queryset_single(DiseaseSymptomsMap.get(id=diseasesymptomsmap_id))
     except DoesNotExist:
         raise HTTPException(status_code=404, detail=f"Disease symptom map {diseasesymptomsmap_id} not found")
 
-    if db_diseasesymptomsmap.author.id == current_user.id:
-        await DiseaseSymptomsMap.filter(id=symptom_id).update(**diseasesymptomsmap.dict(exclude_unset=True))
-        return await DiseaseSymptomsMapOutSchema.from_queryset_single(DiseaseSymptomsMap.get(id=diseasesymptomsmap_id))
-
-    raise HTTPException(status_code=403, detail=f"Not authorized to update")
+    await DiseaseSymptomsMap.filter(id=diseasesymptomsmap_id).update(**diseasesymptomsmap.dict(exclude_unset=True))
+    return await DiseaseSymptomsMapOutSchema.from_queryset_single(DiseaseSymptomsMap.get(id=diseasesymptomsmap_id))
 
 
-async def delete_disease_symptoms_map(diseasesymptomsmap_id) -> Status:
+
+async def delete_disease_symptoms_map(diseasesymptomsmap_id, current_user) -> Status:
     deleted_count = await DiseaseSymptomsMap.filter(id=diseasesymptomsmap_id).delete()
     if not deleted_count:
         raise HTTPException(status_code=404, detail=f"Disease symptom map {diseasesymptomsmap_id} not found")

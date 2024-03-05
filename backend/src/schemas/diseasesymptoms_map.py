@@ -14,7 +14,3 @@ DiseaseSymptomsMapOutSchema = pydantic_model_creator(
       "modified_at", "created_at"
     ]
 )
-
-DiseaseSymptomsMapResponseSchema = pydantic_model_creator(
-    DiseaseSymptomsMap, name="DiseaseSymptomsMapResponse", exclude_readonly=True
-)
