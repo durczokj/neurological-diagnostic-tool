@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from tortoise.exceptions import DoesNotExist
 from tortoise.contrib.fastapi import HTTPNotFoundError
 from typing import List
-
+from tortoise.exceptions import IntegrityError
 from src.schemas.diseasesymptoms_map import DiseaseSymptomsMapCreateSchema, DiseaseSymptomsMapOutSchema, DiseaseSymptomsMapResponseSchema
 from src.schemas.users import UserOutSchema
 from src.database.models import DiseaseSymptomsMap
@@ -34,13 +34,19 @@ async def read_disease_symptoms_map_endpoint(diseasesymptomsmap_id: int) -> Dise
 
 @router.post(
     "/diseasesymptomsmap", 
-    response_model=DiseaseSymptomsMapOutSchema, 
+    response_model=DiseaseSymptomsMapOutSchema,
+    responses={400: {"description": "Bad Request"}}
 )
 async def create_disease_symptoms_map_endpoint(
     diseasesymptomsmap: DiseaseSymptomsMapCreateSchema, current_user: UserOutSchema = Depends(get_current_user)
 ) -> DiseaseSymptomsMapOutSchema:
-    return await create_disease_symptoms_map(diseasesymptomsmap, current_user)
-
+    try:
+        return await create_disease_symptoms_map(diseasesymptomsmap, current_user)
+    except IntegrityError as e:
+        raise HTTPException(
+            status_code=400,
+            detail=str(e)
+        )
 @router.patch(
     "/diseasesymptomsmap/{diseasesymptomsmap_id}",
     response_model=DiseaseSymptomsMapCreateSchema,

@@ -20,7 +20,7 @@ class MappedInsert(BaseInsert):
             characteristics = await self.get_characteristics()
             data_processed = self.get_id_by_name_value(characteristics, data)
             for record in data_processed:
-                print(record)
+                # print(record)
                 #await self.session.post(f'http://localhost:5001/{self.endpoint}', record)
                 await self.insert(self.endpoint, record)
 

@@ -589,9 +589,9 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Niedowład dystalny większy niż proksymalny",
-            "display_name": "Niedowład dystalny większy niż proksymalny",
-            "description": "Niedowład dystalny większy niż proksymalny",
+            "name": "Niedowład dystalny bardziej nasilony niż proksymalny",
+            "display_name": "Niedowład dystalny bardziej nasilony niż proksymalny",
+            "description": "Niedowład dystalny bardziej nasilony niż proksymalny",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,
@@ -1237,18 +1237,6 @@
             "can_exist_in_family": false
         },
         {
-            "name": "Osteoporoza",
-            "display_name": "Osteoporoza",
-            "description": "Osteoporoza",
-            "media": "to be added",
-            "group": "to be added",
-            "can_be_symmetric": false,
-            "can_be_variable_over_time": false,
-            "can_have_age_of_symptom_onset": false,
-            "can_worsen_over_time": false,
-            "can_exist_in_family": false
-        },
-        {
             "name": "Zmienność nasilenia objawów w ciągu doby",
             "display_name": "Zmienność nasilenia objawów w ciągu doby",
             "description": "Zmienność nasilenia objawów w ciągu doby",
@@ -1276,6 +1264,18 @@
             "name": "Poziom CK powyżej 10000",
             "display_name": "Poziom CK powyżej 10000",
             "description": "Poziom CK powyżej 10000",
+            "media": "to be added",
+            "group": "to be added",
+            "can_be_symmetric": false,
+            "can_be_variable_over_time": false,
+            "can_have_age_of_symptom_onset": false,
+            "can_worsen_over_time": false,
+            "can_exist_in_family": false
+        },
+        {
+            "name": "CK",
+            "display_name": "Poziom CK",
+            "description": "Poziom CK",
             "media": "to be added",
             "group": "to be added",
             "can_be_symmetric": false,

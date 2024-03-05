@@ -565,7 +565,14 @@
         "excluding": false,
         "characteristic_id": null,
         "disease_id": "miastenia",
-        "symptom_id": "Cukrzyca t1Pogorszenie po wysiłku"
+        "symptom_id": "Cukrzyca t1"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Pogorszenie po wysiłku"
     } ,
     {
         "required": false,
@@ -583,10 +590,43 @@
     } ,
     {
         "required": false,
-        "excluding": true,
-        "characteristic_id": null,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "miastenia",
-        "symptom_id": "Poziom CK większy niż 1000"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "CK"
     } ,
     {
         "required": false,
@@ -1311,10 +1351,43 @@
     } ,
     {
         "required": false,
-        "excluding": true,
-        "characteristic_id": null,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "zespół miasteniczny Lamberta-Eatona",
-        "symptom_id": "Poziom CK większy niż 1000"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "CK"
     } ,
     {
         "required": false,
@@ -1907,10 +1980,43 @@
     } , 
     {
         "required": false,
-        "excluding": true,
-        "characteristic_id": null,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "wrodzony zespół miasteniczny",
-        "symptom_id": "Poziom CK większy niż 1000"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "CK"
     } ,
     {
         "required": false,
@@ -2422,10 +2528,43 @@
     } ,
     {
         "required": false,
-        "excluding": true,
-        "characteristic_id": null,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "CIDP",
-        "symptom_id": "Poziom CK większy niż 1000"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "CK"
     } ,
     {
         "required": false,
@@ -2769,10 +2908,43 @@
     } ,
     {
         "required": false,
-        "excluding": true,
-        "characteristic_id": null,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "MMN",
-        "symptom_id": "Poziom CK większy niż 1000"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "CK"
     } ,
     {
         "required": false,
@@ -2997,10 +3169,43 @@
     } ,
     {
         "required": false,
-        "excluding": true,
-        "characteristic_id": null,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "CMT",
-        "symptom_id": "Poziom CK większy niż 10000"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "CK"
     } ,
     {
         "required": false,
@@ -3330,9 +3535,42 @@
     {
         "required": false,
         "excluding": true,
-        "characteristic_id": null,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "DMD/BMD",
-        "symptom_id": "Poziom CK w normie"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "CK"
     } ,
     {
         "required": false,
@@ -3353,7 +3591,7 @@
         "excluding": false,
         "characteristic_id": null,
         "disease_id": "DMD/BMD",
-        "symptom_id": "Opóźnienie rozwoju intelektualnegoWstawanie z podłogi wspinając sę po sobie - objaw Gowers'a"
+        "symptom_id": "Wstawanie z podłogi wspinając sę po sobie - objaw Gowers'a"
     } ,
     {
         "required": false,
@@ -3706,9 +3944,42 @@
     {
         "required": false,
         "excluding": true,
-        "characteristic_id": null,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
         "disease_id": "LGMD",
-        "symptom_id": "Poziom CK w normie"
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "CK"
     }
 ]
 }

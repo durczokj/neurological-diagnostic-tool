@@ -60,11 +60,13 @@ class BaseInsert():
     async def insert(self, endpoint, data):
         response = await self.session.post(f'http://localhost:5001/{endpoint}', json=data)
         if response.status_code == 200:
-            print(f"Request succeeded for table {endpoint}")
+            pass
+            # print(f"Request succeeded for table {endpoint}")
         else:
             print(response)
             await asyncio.sleep(2)  # Use asyncio.sleep for async code
-            print(f"Request failed for table {endpoint}")
+            print(f"Request failed for table {endpoint} with data {data}"\
+                  f"-------- {response.content}")
 
     async def push_data_to_db(self):
 
