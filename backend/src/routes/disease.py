@@ -76,28 +76,33 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
 
     matching_diseases = []
     for disease_map in diseases:
-        # Check required symptoms
-        required_symptoms = await DiseaseSymptomsMap.filter(disease=disease_map.disease, required=True)
-        if not all([req.symptom.name in symptom_names for req in required_symptoms]):
+        disease = disease_map.disease
+        
+        # Fetch required and excluding symptoms explicitly
+        required_symptoms = await DiseaseSymptomsMap.filter(disease=disease, required=True).prefetch_related('symptom')
+        excluding_symptoms = await DiseaseSymptomsMap.filter(disease=disease, excluding=True).prefetch_related('symptom')
+
+        # Check if all required symptoms are present
+        if not all(req.symptom.name in symptom_names for req in required_symptoms):
             continue
 
-        # Check excluding symptoms
-        excluding_symptoms = await DiseaseSymptomsMap.filter(disease=disease_map.disease, excluding=True)
-        if any([exc.symptom.name in symptom_names for exc in excluding_symptoms]):
+        # Check if any excluding symptoms are present
+        if any(exc.symptom.name in symptom_names for exc in excluding_symptoms):
             continue
 
         # Count matching characteristics
-        matching_characteristics = sum(
-            1 for (symptom_name, characteristic_name), value in symptom_characteristics.items()
+        matching_characteristics = 0
+        for symptom_name, characteristic_name in symptom_characteristics.keys():
+            value = symptom_characteristics[(symptom_name, characteristic_name)]
             if await DiseaseSymptomsMap.filter(
-                disease=disease_map.disease,
+                disease=disease,
                 symptom__name=symptom_name,
                 characteristic__name=characteristic_name,
                 characteristic__value=value
-            ).exists()
-        )
+            ).exists():
+                matching_characteristics += 1
 
-        matching_diseases.append((disease_map.disease, matching_characteristics))
+        matching_diseases.append((disease, matching_characteristics))
 
     # Order diseases by the number of matching characteristics
     matching_diseases.sort(key=lambda x: x[1], reverse=True)
