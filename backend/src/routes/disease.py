@@ -1,6 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
+from src.schemas.symptoms import SymptomResponseSchema
 from tortoise.exceptions import DoesNotExist
 from tortoise.contrib.fastapi import HTTPNotFoundError
+from tortoise.queryset import Q
 from typing import List
 
 from src.schemas.diseasesymptoms_map import DiseaseSymptomsMapOutSchema
@@ -110,3 +112,71 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
     ]
 
     return result
+
+
+@router.post("/disease/from_symptoms", response_model=List[DiseaseMatchOutSchema])
+async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> List[DiseaseMatchOutSchema]:
+    disease_sets = []
+    
+    for symptom in symptoms:
+        # Initialize a list to hold the set of diseases for each characteristic
+        disease_sets_for_symptom = []
+
+        # Build and execute queries for each characteristic if provided
+        characteristics = [
+            ("symetria", symptom.symmetry_answer),
+            ("zmienność w czasie", symptom.variability_answer),
+            ("wiek podczas wystapienia pierwszych objawów", symptom.age_onset_answer),
+            ("pogorszenie w ciągu", symptom.progressive_answer),
+        ]
+        if not any(char_value for _, char_value in characteristics):
+            query = Q(symptom__name=symptom.name)
+            matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
+            diseases_for_characteristic = {match.disease.name for match in matching_maps}
+            print(f"Symptom: {symptom.name}, Diseases: {diseases_for_characteristic}")
+            disease_sets_for_symptom.append(diseases_for_characteristic)
+
+        for char_name, char_value in characteristics:
+            if char_value:
+                query = Q(symptom__name=symptom.name, characteristic__name=char_name, characteristic__value=char_value, excluding=False)
+                matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
+                diseases_for_characteristic = {match.disease.name for match in matching_maps}
+                print(f"Symptom: {symptom.name}, Characteristic: {char_name}, Value: {char_value}, Diseases: {diseases_for_characteristic}")
+                disease_sets_for_symptom.append(diseases_for_characteristic)
+
+        # Find the intersection of diseases for all characteristics of this symptom
+        if disease_sets_for_symptom:
+            common_diseases = set.intersection(*disease_sets_for_symptom)
+            disease_sets.append(common_diseases)
+
+    # Find the intersection of diseases across all symptoms
+    if disease_sets:
+        common_diseases_across_symptoms = set.intersection(*disease_sets)
+    else:
+        common_diseases_across_symptoms = set()
+
+    disease_counts = {disease: 0 for disease in common_diseases_across_symptoms}
+    for disease_set in disease_sets:
+        for disease in disease_set:
+            disease_counts[disease] += 1
+    # Fetch Disease objects for the final list of disease names
+    final_diseases = await Disease.filter(name__in=common_diseases_across_symptoms).all()
+        # Sort diseases by the count of matched symptoms in descending order
+    sorted_disease_names = sorted(disease_counts, key=disease_counts.get, reverse=True)
+
+    # Prepare the response
+    response = []
+    for disease_name in sorted_disease_names:
+        # Find the disease object from the list of final diseases
+        disease_obj = next((d for d in final_diseases if d.name == disease_name), None)
+        if disease_obj:
+            # Assuming DiseaseOutSchema can create an instance from a Disease model
+            disease_data = await DiseaseOutSchema.from_tortoise_orm(disease_obj)
+
+            # Append to the response list with the count of matched symptoms
+            response.append(DiseaseMatchOutSchema(
+                **disease_data.dict(),  # Convert the DiseaseOutSchema instance to a dict
+                matching_symptoms_count=disease_counts[disease_name]  # Add the count of matched symptoms
+            ))
+
+    return response
