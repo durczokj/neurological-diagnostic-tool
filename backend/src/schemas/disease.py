@@ -13,3 +13,5 @@ DiseaseOutSchema = pydantic_model_creator(
       "modified_at", "created_at", "diseasesymptomsmaps"
     ]
 )
+class DiseaseMatchOutSchema(DiseaseOutSchema):
+    matching_symptoms_count: int  # Add the count of matching symptoms

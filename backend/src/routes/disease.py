@@ -4,7 +4,7 @@ from tortoise.contrib.fastapi import HTTPNotFoundError
 from typing import List
 
 from src.schemas.diseasesymptoms_map import DiseaseSymptomsMapOutSchema
-from src.schemas.disease import DiseaseCreateSchema, DiseaseOutSchema
+from src.schemas.disease import DiseaseCreateSchema, DiseaseMatchOutSchema, DiseaseOutSchema
 from src.schemas.users import UserOutSchema
 from src.database.models import Disease, DiseaseSymptomsMap
 from src.crud.disease import get_diseases, create_disease, update_disease, delete_disease
@@ -70,9 +70,9 @@ async def print_diseases_query_set(diseases):
 
 @router.post(
     "/disease/match",
-    response_model=List[DiseaseOutSchema],
+    response_model=List[DiseaseMatchOutSchema],
 )
-async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchema]) -> List[DiseaseOutSchema]:
+async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchema]) -> List[DiseaseMatchOutSchema]:
     # Prepare a list of tuples for symptom names and characteristics for querying
     symptom_with_characteristics = [
         (symptom.symptom.name, symptom.characteristic.name, symptom.characteristic.value)
@@ -99,10 +99,14 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
             else:
                 disease_matching_count[match.disease.name]['count'] += 1
 
-    # Sort diseases by the number of matching characteristics
     sorted_diseases = sorted(disease_matching_count.values(), key=lambda x: x['count'], reverse=True)
 
-    # Extract diseases and convert to the expected output schema
-    result = [await DiseaseOutSchema.from_tortoise_orm(entry['disease']) for entry in sorted_diseases]
+    # Convert sorted diseases to the new output schema, including the count
+    result = [
+        DiseaseMatchOutSchema(
+            **(await DiseaseOutSchema.from_tortoise_orm(entry['disease'])).dict(),
+            matching_symptoms_count=entry['count'])
+        for entry in sorted_diseases
+    ]
 
     return result
