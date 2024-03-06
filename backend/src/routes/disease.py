@@ -129,6 +129,12 @@ async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> L
             ("wiek podczas wystapienia pierwszych objawów", symptom.age_onset_answer),
             ("pogorszenie w ciągu", symptom.progressive_answer),
         ]
+        if not any(char_value for _, char_value in characteristics):
+            query = Q(symptom__name=symptom.name)
+            matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
+            diseases_for_characteristic = {match.disease.name for match in matching_maps}
+            print(f"Symptom: {symptom.name}, Diseases: {diseases_for_characteristic}")
+            disease_sets_for_symptom.append(diseases_for_characteristic)
 
         for char_name, char_value in characteristics:
             if char_value:
@@ -149,24 +155,28 @@ async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> L
     else:
         common_diseases_across_symptoms = set()
 
+    disease_counts = {disease: 0 for disease in common_diseases_across_symptoms}
+    for disease_set in disease_sets:
+        for disease in disease_set:
+            disease_counts[disease] += 1
     # Fetch Disease objects for the final list of disease names
     final_diseases = await Disease.filter(name__in=common_diseases_across_symptoms).all()
+        # Sort diseases by the count of matched symptoms in descending order
+    sorted_disease_names = sorted(disease_counts, key=disease_counts.get, reverse=True)
 
-    # Calculate matching symptoms count for each disease
-    disease_matching_count = {disease.name: {'disease': disease, 'count': 0} for disease in final_diseases}
-    for disease_name in common_diseases_across_symptoms:
-        for disease in final_diseases:
-            if disease.name == disease_name:
-                disease_matching_count[disease_name]['count'] += sum(1 for _ in disease.diseasesymptommap_set)
+    # Prepare the response
+    response = []
+    for disease_name in sorted_disease_names:
+        # Find the disease object from the list of final diseases
+        disease_obj = next((d for d in final_diseases if d.name == disease_name), None)
+        if disease_obj:
+            # Assuming DiseaseOutSchema can create an instance from a Disease model
+            disease_data = await DiseaseOutSchema.from_tortoise_orm(disease_obj)
 
-    sorted_diseases = sorted(disease_matching_count.values(), key=lambda x: x['count'], reverse=True)
+            # Append to the response list with the count of matched symptoms
+            response.append(DiseaseMatchOutSchema(
+                **disease_data.dict(),  # Convert the DiseaseOutSchema instance to a dict
+                matching_symptoms_count=disease_counts[disease_name]  # Add the count of matched symptoms
+            ))
 
-    # Convert sorted diseases to the output schema, including the count
-    result = [
-        DiseaseMatchOutSchema(
-            **(await DiseaseOutSchema.from_tortoise_orm(entry['disease'])).dict(),
-            matching_symptoms_count=entry['count'])
-        for entry in sorted_diseases
-    ]
-
-    return result
+    return response
