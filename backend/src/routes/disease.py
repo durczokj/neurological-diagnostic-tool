@@ -12,6 +12,8 @@ from src.database.models import Disease, DiseaseSymptomsMap
 from src.crud.disease import get_diseases, create_disease, update_disease, delete_disease
 from src.auth.jwthandler import get_current_user
 from src.schemas.token import Status
+from collections import Counter
+
 
 router = APIRouter()
 
@@ -114,9 +116,21 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
     return result
 
 
+
+#obligatory, final disease list, if obligatory
+
+
+
 @router.post("/disease/from_symptoms", response_model=List[DiseaseMatchOutSchema])
 async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> List[DiseaseMatchOutSchema]:
     disease_sets = []
+    excluded_diseases = set()
+
+    async def query_for_disease(query: Q):
+        matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
+        diseases_for_characteristic = {match.disease.name for match in matching_maps}
+        return diseases_for_characteristic
+
     
     for symptom in symptoms:
         # Initialize a list to hold the set of diseases for each characteristic
@@ -127,38 +141,75 @@ async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> L
             ("symetria", symptom.symmetry_answer),
             ("zmienność w czasie", symptom.variability_answer),
             ("wiek podczas wystapienia pierwszych objawów", symptom.age_onset_answer),
-            ("pogorszenie w ciągu", symptom.progressive_answer),
+            ("występowanie objawu w rodzinie (do 2 pokoleń wstecz)", symptom.exists_in_family_answer),
+            ("ck_level", symptom.ck_level_answer)
         ]
         if not any(char_value for _, char_value in characteristics):
             query = Q(symptom__name=symptom.name)
-            matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
-            diseases_for_characteristic = {match.disease.name for match in matching_maps}
+            diseases_for_characteristic = await query_for_disease(query)
             print(f"Symptom: {symptom.name}, Diseases: {diseases_for_characteristic}")
-            disease_sets_for_symptom.append(diseases_for_characteristic)
-
-        for char_name, char_value in characteristics:
-            if char_value:
-                query = Q(symptom__name=symptom.name, characteristic__name=char_name, characteristic__value=char_value, excluding=False)
-                matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
-                diseases_for_characteristic = {match.disease.name for match in matching_maps}
-                print(f"Symptom: {symptom.name}, Characteristic: {char_name}, Value: {char_value}, Diseases: {diseases_for_characteristic}")
+            if diseases_for_characteristic:
                 disease_sets_for_symptom.append(diseases_for_characteristic)
 
+            #Check for excluded diseases
+            query_excl = Q(symptom__name=symptom.name, excluding=True)
+            excluded_disease = await query_for_disease(query_excl)
+            for excl in excluded_disease:
+                excluded_diseases.add(excl)
+
+        for char_name, char_value in characteristics:
+            if char_value and char_value != "nie dotyczy":
+                query = Q(symptom__name=symptom.name, characteristic__name=char_name, characteristic__value=char_value, excluding=False)
+                diseases_for_characteristic = await query_for_disease(query)
+                print(f"Symptom: {symptom.name}, Characteristic: {char_name}, Value: {char_value}, Diseases: {diseases_for_characteristic}")
+                if diseases_for_characteristic:
+                    disease_sets_for_symptom.append(diseases_for_characteristic)
+
+                #Check for excluded diseases
+                query_excl = Q(symptom__name=symptom.name, characteristic__name=char_name, characteristic__value=char_value, excluding=True)
+                excluded_disease = await query_for_disease(query_excl)
+                for excl in excluded_disease:
+                    excluded_diseases.add(excl)
+
         # Find the intersection of diseases for all characteristics of this symptom
+
         if disease_sets_for_symptom:
             common_diseases = set.intersection(*disease_sets_for_symptom)
+            print(common_diseases)
             disease_sets.append(common_diseases)
 
-    # Find the intersection of diseases across all symptoms
+    # Find the intersection of diseases across all symptoms - at least two symptoms must match the disease
+    # maybe we should do union here...:
+    
     if disease_sets:
-        common_diseases_across_symptoms = set.intersection(*disease_sets)
+        common_diseases_across_symptoms = set.union(*disease_sets)
     else:
         common_diseases_across_symptoms = set()
+        raise HTTPException(status_code=404, detail="No suitable disease found.")
+ 
+    #Alternatively: for at least 2 symptoms matching a disease
+    '''
+    if disease_sets and len(disease_sets)>1:
+        element_counter = Counter()
+        for s in disease_sets:
+            element_counter.update(s)
+        common_diseases_across_symptoms = set()
+        for element, count in element_counter.items():
+            if count >= 2:
+                common_diseases_across_symptoms.add(element)
+    elif len(disease_sets)==1:
+        common_diseases_across_symptoms = disease_sets[0]
+    '''
+
+    # Subtract excluded diseases
+    common_diseases_across_symptoms = common_diseases_across_symptoms.difference(excluded_diseases)
 
     disease_counts = {disease: 0 for disease in common_diseases_across_symptoms}
     for disease_set in disease_sets:
         for disease in disease_set:
-            disease_counts[disease] += 1
+            if disease in common_diseases_across_symptoms:
+                disease_counts[disease] += 1
+
     # Fetch Disease objects for the final list of disease names
     final_diseases = await Disease.filter(name__in=common_diseases_across_symptoms).all()
         # Sort diseases by the count of matched symptoms in descending order
