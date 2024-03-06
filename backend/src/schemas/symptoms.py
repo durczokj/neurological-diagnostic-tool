@@ -18,11 +18,11 @@ SymptomOutSchema = pydantic_model_creator(
 
 class SymptomResponseSchema(BaseModel):
     name: str
-    symmetry_answer: Optional[Literal["symetryczne", "asymetryczne"]]
-    variability_answer: Optional[Literal["zmienne", "stałe"]]
-    age_onset_answer: Optional[Literal["od urodzenia", "poniżej 10 roku życia", "od 10 do 20 roku życia", "od 20 do 30 roku życia", 
+    symmetry_answer: Optional[Literal["symetryczny", "asymetryczny"]]
+    variability_answer: Optional[Literal["zmienne", "stałe/postępujące"]]
+    age_onset_answer: Optional[Literal["poniżej 10 roku życia", "od 10 do 20 roku życia", "od 20 do 30 roku życia", 
                                        "od 30 do 50 roku życia", "powyżej 50 roku życia"]]
-    progressive_answer: Optional[Literal["dni", "tygodni", "miesięcy", "lat"]]
+    progressive_answer: Optional[Literal["dni", "tygodni", "miesięcy", "lat", "brak"]]
     value_answer: Optional[int]
 
 

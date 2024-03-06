@@ -116,41 +116,57 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
 
 @router.post("/disease/from_symptoms", response_model=List[DiseaseMatchOutSchema])
 async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> List[DiseaseMatchOutSchema]:
-    diseases_matching = []
-    disease_matching_count = {}
+    disease_sets = []
+    
     for symptom in symptoms:
-        # Build the query dynamically based on provided characteristics
-        query = Q(symptom__name=symptom.name)
-        
-        # Add conditions for each characteristic if provided
-        if symptom.symmetry_answer:
-            query &= Q(characteristic__name="symetria", characteristic__value=symptom.symmetry_answer)
-        if symptom.variability_answer:
-            query &= Q(characteristic__name="zmienność w czasie", characteristic__value=symptom.variability_answer)
-        if symptom.age_onset_answer:
-            query &= Q(characteristic__name="wiek podczas wystapienia pierwszych objawów", characteristic__value=symptom.age_onset_answer)
-        if symptom.progressive_answer:
-            query &= Q(characteristic__name="pogorszenie w ciągu", characteristic__value=symptom.progressive_answer)
-        # Add custom logic for value_answer if applicable
+        # Initialize a list to hold the set of diseases for each characteristic
+        disease_sets_for_symptom = []
 
-        # Perform the query using the built conditions
-        matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
-
-        for match in matching_maps:
-            # Update count for each disease found
-            if match.disease.name not in disease_matching_count:
-                disease_matching_count[match.disease.name] = {'disease': match.disease, 'count': 1}
-            else:
-                disease_matching_count[match.disease.name]['count'] += 1
-
-        sorted_diseases = sorted(disease_matching_count.values(), key=lambda x: x['count'], reverse=True)
-
-        # Convert sorted diseases to the new output schema, including the count
-        result = [
-            DiseaseMatchOutSchema(
-                **(await DiseaseOutSchema.from_tortoise_orm(entry['disease'])).dict(),
-                matching_symptoms_count=entry['count'])
-            for entry in sorted_diseases
+        # Build and execute queries for each characteristic if provided
+        characteristics = [
+            ("symetria", symptom.symmetry_answer),
+            ("zmienność w czasie", symptom.variability_answer),
+            ("wiek podczas wystapienia pierwszych objawów", symptom.age_onset_answer),
+            ("pogorszenie w ciągu", symptom.progressive_answer),
         ]
 
-        return result
+        for char_name, char_value in characteristics:
+            if char_value:
+                query = Q(symptom__name=symptom.name, characteristic__name=char_name, characteristic__value=char_value, excluding=False)
+                matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
+                diseases_for_characteristic = {match.disease.name for match in matching_maps}
+                print(f"Symptom: {symptom.name}, Characteristic: {char_name}, Value: {char_value}, Diseases: {diseases_for_characteristic}")
+                disease_sets_for_symptom.append(diseases_for_characteristic)
+
+        # Find the intersection of diseases for all characteristics of this symptom
+        if disease_sets_for_symptom:
+            common_diseases = set.intersection(*disease_sets_for_symptom)
+            disease_sets.append(common_diseases)
+
+    # Find the intersection of diseases across all symptoms
+    if disease_sets:
+        common_diseases_across_symptoms = set.intersection(*disease_sets)
+    else:
+        common_diseases_across_symptoms = set()
+
+    # Fetch Disease objects for the final list of disease names
+    final_diseases = await Disease.filter(name__in=common_diseases_across_symptoms).all()
+
+    # Calculate matching symptoms count for each disease
+    disease_matching_count = {disease.name: {'disease': disease, 'count': 0} for disease in final_diseases}
+    for disease_name in common_diseases_across_symptoms:
+        for disease in final_diseases:
+            if disease.name == disease_name:
+                disease_matching_count[disease_name]['count'] += sum(1 for _ in disease.diseasesymptommap_set)
+
+    sorted_diseases = sorted(disease_matching_count.values(), key=lambda x: x['count'], reverse=True)
+
+    # Convert sorted diseases to the output schema, including the count
+    result = [
+        DiseaseMatchOutSchema(
+            **(await DiseaseOutSchema.from_tortoise_orm(entry['disease'])).dict(),
+            matching_symptoms_count=entry['count'])
+        for entry in sorted_diseases
+    ]
+
+    return result
