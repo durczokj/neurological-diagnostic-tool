@@ -1,5 +1,6 @@
 import { css } from 'styled-components';
 import Color from 'color';
+import { createTheme } from '@mui/material'
 
 export const color = {
     primary: '#3e74db', // Blue
@@ -45,3 +46,9 @@ export const mixin = {
             .lighten(amount)
             .string()
 };
+
+export const theme = createTheme({
+    typography: {
+        fontSize: 15
+    }
+})
