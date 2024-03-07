@@ -6,7 +6,7 @@ import history from '@/browserHistory'
 const defaultParams = {
     baseUrl: 'http://localhost:5001',
     headers: () => ({
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/json'
     })
 }
 
@@ -25,9 +25,10 @@ const api = (method, url, variables) => {
             data: method !== 'get' ? formData : undefined
         }).then(
             response => {
-                resolve(response.data)
+                response.data
             },
             error => {
+                console.log(error)
                 if (error.response) {
                     if (error.response.data.error.code === 'INVALID_TOKEN') {
                         removeStoredAuthToken()

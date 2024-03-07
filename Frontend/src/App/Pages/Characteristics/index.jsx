@@ -216,5 +216,5 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
 
 //ck jako oddzielny symptom, wtedy pytam o poziom CK
 
-// po odpowiedzeniu na wszystkie pytania request na /disease/from_symptoms i zwrócone wartości wysłane w pierwszym parametrze /symptoms/recommend razem z odpowiedziami na pytania <--- powtarzalny proces
+// po odpowiedzeniu na wszystkie pytania request na /disease/from_symptoms (jeśli zwróci 404, przechodzę do rezultatów) i zwrócone wartości wysłane w pierwszym parametrze /symptoms/recommend razem z odpowiedziami na pytania <--- powtarzalny proces
 // gdy dostane 204 to wyświetlenie ekranu rezultatu i wyświetlenie chorób otrzymanych z /disease/from_symptoms

@@ -11,6 +11,7 @@ import {
 import SignIn from './Pages/Login'
 import Characteristics from './Pages/Characteristics'
 import Symptoms from './Pages/Symptoms'
+import Results from './Pages/Results'
 
 import symptomsService from './services/symptoms'
 
@@ -20,42 +21,11 @@ const App = () => {
 
   const navigate = useNavigate()
 
+  const [diseases, setDiseases] = useState([])
   const [symptoms, setSymptoms] = useState([])
   const [choices, setChoices] = useState([])
   const [questionNumber, setQuestionNumber] = useState(1)
   const [answeredQuestions, setAnsweredQuestions] = useState([])
-
-  useEffect(() => {
-    setSymptoms([{
-      name: "ból głowy",
-      display_name: "ból głowy",
-      description: "gdy boli cie glowa",
-      media: "nic na razie",
-      group: "glowa",
-      can_be_symmetric: false,
-      can_be_variable_over_time: true,
-      can_have_age_of_symptom_onset: true,
-      can_worsen_over_time: true,
-      can_exist_in_family: true
-    },
-    {
-      name: "ból dupy",
-      display_name: "ból dupy",
-      description: "gdy boli cie dupa",
-      media: "nic na razie",
-      group: "dupa",
-      can_be_symmetric: false,
-      can_be_variable_over_time: true,
-      can_have_age_of_symptom_onset: true,
-      can_worsen_over_time: true,
-      can_exist_in_family: true
-    },
-    {
-      name: "CK",
-      display_name: "CK",
-      description: "CK"
-    }])
-  }, [])
 
   const renderQuestionsScreen = async (choices) => {
 
@@ -96,6 +66,7 @@ const App = () => {
               <Route path="/login" element={ <SignIn /> } />
               <Route path="/select" element={ <Symptoms symptoms={symptoms} renderQuestionsScreen={renderQuestionsScreen}/> } />
               <Route path="/characteristics/:question" element={ <Characteristics symptoms={choices} answeredQuestions={answeredQuestions} handleAnsweredQuestions={handleAnsweredQuestions} /> } />
+              <Route path="/results" element={ <Results diseases={diseases} /> } />
           </Routes>
         </Paper>
       </Container>

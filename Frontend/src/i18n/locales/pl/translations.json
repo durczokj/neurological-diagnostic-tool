@@ -3,7 +3,8 @@
         "helloWorld": "Witaj, świecie!"
     },
     "symptoms": {
-        "choose": "Wybierz swoje symptomy"
+        "choose": "Wybierz swoje symptomy",
+        "descriptionPlaceholder": "Proszę zacząć od wybrania symptomów z listy poniżej. Możliwe jest wyszukanie symptomów poprzez wpisanie ich nazwy."
     },
     "questions": {
         "symmetric": "Czy symptom jest symetryczny (dotyczy obu stron ciała, np. prawej i lewej ręki)?",
