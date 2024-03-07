@@ -49,6 +49,6 @@ export const mixin = {
 
 export const theme = createTheme({
     typography: {
-        fontSize: 15
+        fontSize: 12
     }
 })
