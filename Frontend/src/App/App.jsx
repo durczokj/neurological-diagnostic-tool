@@ -13,7 +13,7 @@ import Characteristics from './Pages/Characteristics'
 import Symptoms from './Pages/Symptoms'
 import Results from './Pages/Results'
 
-import symptomsService from './services/symptoms'
+import diseasesService from './services/diseases'
 
 import './fontStyles.css'
 
@@ -22,12 +22,11 @@ const App = () => {
   const navigate = useNavigate()
 
   const [diseases, setDiseases] = useState([])
-  const [symptoms, setSymptoms] = useState([])
   const [choices, setChoices] = useState([])
   const [questionNumber, setQuestionNumber] = useState(1)
   const [answeredQuestions, setAnsweredQuestions] = useState([])
 
-  const renderQuestionsScreen = async (choices) => {
+  const renderQuestionsScreen = (choices) => {
 
     setChoices(choices)
 
@@ -38,6 +37,18 @@ const App = () => {
   const handleAnsweredQuestions = (answers) => {
     setAnsweredQuestions(answers)
     console.log(answers)
+    console.log("Question number " + questionNumber)
+    console.log("Length: " + choices.length)
+    if (questionNumber === choices.length + 1) {
+      console.log("dupa")
+      diseasesService
+        .postSymptoms(answers)
+        .then(response => setDiseases(response))
+      
+      console.log(diseases)
+
+      return
+    }
     navigate(`/characteristics/${questionNumber}`)
     setQuestionNumber(questionNumber + 1)
   }
@@ -60,11 +71,11 @@ const App = () => {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Container component="main" sx={{ mb: 4, width: '75%', height: '75vh' }}>
+      <Container component="main" sx={{ mb: 4, width: '75%', height: '75vh'}}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
            <Routes>
               <Route path="/login" element={ <SignIn /> } />
-              <Route path="/select" element={ <Symptoms symptoms={symptoms} renderQuestionsScreen={renderQuestionsScreen}/> } />
+              <Route path="/select" element={ <Symptoms renderQuestionsScreen={renderQuestionsScreen}/> } />
               <Route path="/characteristics/:question" element={ <Characteristics symptoms={choices} answeredQuestions={answeredQuestions} handleAnsweredQuestions={handleAnsweredQuestions} /> } />
               <Route path="/results" element={ <Results diseases={diseases} /> } />
           </Routes>

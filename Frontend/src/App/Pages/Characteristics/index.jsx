@@ -15,7 +15,7 @@ import { ThemeProvider } from'@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid'
 import { useTranslation } from 'react-i18next'
-import { theme } from '@/shared/utils/styles'
+import { theme, bigTheme } from '@/shared/utils/styles'
 import { useParams } from "react-router-dom"
 
 export default function Characteristics({ symptoms, answeredQuestions, handleAnsweredQuestions }) {
@@ -25,6 +25,7 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
     const [worsen, setWorsen] = React.useState('')
     const [family, setFamily] = React.useState('')
     const [value, setValue] = React.useState('')
+    const [firstQuestion, setFirstQuestion] = React.useState('')
 
     const { question } = useParams();
     const symptom = symptoms[question - 1]
@@ -55,16 +56,26 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
         setValue(event.target.value)
     }
 
+    const handleFirstQuestion = (event) => {
+        setFirstQuestion(event.target.value)
+    }
+
     const updateAnswers = () => {
+        setSymmetric('')
+        setSeverity('')
+        setOnset('')
+        setWorsen('')
+        setFamily('')
+        setValue('')
         answeredQuestions.push(
             {
                 name: symptom.name,
                 symmetry_answer: symmetric,
                 variability_answer: severity,
                 age_onset_answer: onset,
-                progressive_answer: worsen,
-                family_answer: family,
-                value_answer: value
+                //progressive_answer: worsen,
+                exists_in_family_answer: family,
+                ck_level_answer: 'nie dotyczy'
             }
         )
 
@@ -91,7 +102,27 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                 <TableContainer sx={{ width: '100%' }}>
                     <Table>
                         <TableBody>
-                            { symptom.can_be_symmetric && symptom.name !== "CK" &&
+                            { (!firstQuestion || firstQuestion === "false" ) &&
+                                <ThemeProvider theme={bigTheme}>
+                                    <TableRow key="first_question" >
+                                        <TableCell>
+                                            {symptom.display_name}
+                                        </TableCell>
+                                        <TableCell>
+                                            <RadioGroup
+                                                row
+                                                name="first-question"
+                                                value={firstQuestion}
+                                                onChange={handleFirstQuestion}
+                                            >   
+                                                <FormControlLabel value="true" control={<Radio />} label={t('questions.yes')} />
+                                                <FormControlLabel value="false" control={<Radio />} label={t('questions.no')} />
+                                            </RadioGroup>
+                                        </TableCell>
+                                    </TableRow>
+                                </ThemeProvider>
+                            }
+                            {symptom.can_be_symmetric && symptom.name !== "CK" && firstQuestion === 'true' && firstQuestion !== '' &&
                                 <TableRow key="can_be_symmetric" >
                                     <TableCell>
                                         {t('questions.symmetric')}
@@ -103,13 +134,13 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                                             value={symmetric}
                                             onChange={handleSymmetric}
                                         >   
-                                            <FormControlLabel value="symetryczne" control={<Radio />} label={t('questions.yes')} />
-                                            <FormControlLabel value="asymetryczne" control={<Radio />} label={t('questions.no')} />
+                                            <FormControlLabel value="symetryczny" control={<Radio />} label={t('questions.yes')} />
+                                            <FormControlLabel value="asymetryczny" control={<Radio />} label={t('questions.no')} />
                                         </RadioGroup>
                                     </TableCell>
                                 </TableRow>
                             }
-                            { symptom.can_be_variable_over_time && symptom.name !== "CK" &&
+                            { symptom.can_be_variable_over_time && symptom.name !== "CK" && firstQuestion === 'true' && firstQuestion !== '' &&
                                 <TableRow key="can_be_variable_over_time" >
                                     <TableCell>
                                         {t('questions.severity')}
@@ -122,12 +153,12 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                                             onChange={handleSeverity}
                                         >   
                                             <FormControlLabel value="zmienne" control={<Radio />} label={t('questions.variable')} />
-                                            <FormControlLabel value="stałe" control={<Radio />} label={t('questions.persistent')} />
+                                            <FormControlLabel value="stałe/postępujące" control={<Radio />} label={t('questions.persistent')} />
                                         </RadioGroup>
                                     </TableCell>
                                 </TableRow>
                             }
-                            { symptom.can_have_age_of_symptom_onset && symptom.name !== "CK" &&
+                            { symptom.can_have_age_of_symptom_onset && symptom.name !== "CK" && firstQuestion === 'true' && firstQuestion !== '' &&
                                 <TableRow key="can_have_age_of_symptom_onset" >
                                     <TableCell>
                                         {t('questions.onset')}
@@ -149,7 +180,7 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                                     </TableCell>
                                 </TableRow>
                             }
-                            { symptom.can_worsen_over_time && symptom.name !== "CK" &&
+                            { symptom.can_worsen_over_time && symptom.name !== "CK" && firstQuestion === 'true' && firstQuestion !== '' &&
                                 <TableRow key="can_worsen_over_time" >
                                     <TableCell>
                                         {t('questions.worsen')}
@@ -170,7 +201,7 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                                     </TableCell>
                                 </TableRow>
                             }
-                            { symptom.can_exist_in_family && symptom.name !== "CK" &&
+                            { symptom.can_exist_in_family && symptom.name !== "CK" && firstQuestion === 'true' && firstQuestion !== '' &&
                                 <TableRow key="can_exist_in_family" >
                                     <TableCell>
                                         {t('questions.family')}
@@ -188,7 +219,7 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                                     </TableCell>
                                 </TableRow>
                             }
-                            { symptom.name === "CK" &&
+                            { symptom.name === "CK" && firstQuestion && firstQuestion === 'true' && firstQuestion !== '' &&
                                 <TableRow key="CK" >
                                     <TableCell>
                                         {t('questions.CK')}
@@ -209,7 +240,9 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                         </TableBody>
                     </Table>
                 </TableContainer>
-                <Button variant="contained" onClick={() => handleAnsweredQuestions(updateAnswers())}>Next</Button>
+                <Grid container justifyContent="flex-end" pt={5} pb={2}>
+                    <Button variant="contained" style={{maxWidth: '120px', maxHeight: '70px', minWidth: '120px', minHeight: '70px'}} onClick={() => handleAnsweredQuestions(updateAnswers())}>{t("button.next")}</Button>
+                </Grid>
         </ThemeProvider>
     )
 }

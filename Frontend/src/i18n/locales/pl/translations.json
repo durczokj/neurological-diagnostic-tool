@@ -2,6 +2,9 @@
     "app": { 
         "helloWorld": "Witaj, świecie!"
     },
+    "button": {
+        "next": "Dalej"
+    },
     "symptoms": {
         "choose": "Wybierz swoje symptomy",
         "descriptionPlaceholder": "Proszę zacząć od wybrania symptomów z listy poniżej. Możliwe jest wyszukanie symptomów poprzez wpisanie ich nazwy."

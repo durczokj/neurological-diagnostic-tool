@@ -2,6 +2,9 @@
     "app": { 
         "helloWorld": "Hello, world!"
     },
+    "button": {
+        "next": "Next"
+    },
     "symptoms": {
         "choose": "Choose your symptoms",
         "descriptionPlaceholder": "Start by choosing you symptoms from the list below. You can also filter the symptoms by typing it's name."

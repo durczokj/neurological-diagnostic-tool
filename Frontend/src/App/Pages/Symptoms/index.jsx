@@ -61,7 +61,6 @@ export default function Symptoms({ renderQuestionsScreen }) {
             .getSymptomsList()
             .then(result => setSymptoms(result))
             .catch(error => console.log(error))
-        console.log(symptoms)
     }, [])
     
     return (
@@ -101,7 +100,7 @@ export default function Symptoms({ renderQuestionsScreen }) {
                 renderInput={(params) => <TextField {...params} label="Symptom" placeholder={t('symptoms.choose')}/>}
             />
             <Grid container justifyContent="flex-end">
-                <Button variant="contained" style={{maxWidth: '120px', maxHeight: '70px', minWidth: '120px', minHeight: '70px'}} onClick={() => renderQuestionsScreen(value)}>Next</Button>
+                <Button variant="contained" style={{maxWidth: '120px', maxHeight: '70px', minWidth: '120px', minHeight: '70px'}} onClick={() => renderQuestionsScreen(value)}>{t("button.next")}</Button>
             </Grid>
         </React.Fragment>
     )
