@@ -56,7 +56,7 @@ const App = () => {
       >
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Company name
+            Company name2
           </Typography>
         </Toolbar>
       </AppBar>
