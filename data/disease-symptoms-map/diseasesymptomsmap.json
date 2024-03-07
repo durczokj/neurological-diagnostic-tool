@@ -3982,8 +3982,8 @@
         "symptom_id": "CK"
     },
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -3992,8 +3992,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4002,8 +4002,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4012,8 +4012,8 @@
         "symptom_id": "Dwojenie obrazu"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4022,8 +4022,8 @@
         "symptom_id": "Dwojenie obrazu"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4032,8 +4032,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4042,8 +4042,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4052,8 +4052,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4062,8 +4062,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4072,8 +4072,8 @@
         "symptom_id": "Duszność"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4082,8 +4082,8 @@
         "symptom_id": "Duszność"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4092,8 +4092,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4102,8 +4102,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4112,8 +4112,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4122,8 +4122,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4132,8 +4132,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4142,8 +4142,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4152,8 +4152,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4162,8 +4162,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4172,8 +4172,8 @@
         "symptom_id": "Dwojenie obrazu"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4182,8 +4182,8 @@
         "symptom_id": "Dwojenie obrazu"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4192,8 +4192,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4202,8 +4202,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4212,8 +4212,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4222,8 +4222,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4232,8 +4232,8 @@
         "symptom_id": "Duszność"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4242,8 +4242,8 @@
         "symptom_id": "Duszność"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4252,8 +4252,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4262,8 +4262,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4272,8 +4272,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4282,8 +4282,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4292,8 +4292,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4302,8 +4302,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4312,8 +4312,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4322,8 +4322,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4332,8 +4332,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4342,8 +4342,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4352,8 +4352,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4362,8 +4362,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4372,8 +4372,8 @@
         "symptom_id": "Dwojenie obrazu"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4382,8 +4382,8 @@
         "symptom_id": "Dwojenie obrazu"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4392,8 +4392,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4402,8 +4402,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4412,8 +4412,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4422,8 +4422,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4432,8 +4432,8 @@
         "symptom_id": "Duszność"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4442,8 +4442,8 @@
         "symptom_id": "Duszność"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4452,8 +4452,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4462,8 +4462,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4472,8 +4472,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4482,8 +4482,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4492,8 +4492,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4502,8 +4502,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4512,8 +4512,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4522,8 +4522,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4532,8 +4532,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -4542,8 +4542,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -4552,8 +4552,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -4562,8 +4562,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -4572,8 +4572,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -4582,8 +4582,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -4592,8 +4592,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -4602,8 +4602,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4612,8 +4612,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -4622,8 +4622,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -4632,8 +4632,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -4642,8 +4642,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -4652,8 +4652,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -4662,8 +4662,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -4672,8 +4672,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4682,8 +4682,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -4692,8 +4692,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -4702,8 +4702,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -4712,8 +4712,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -4722,8 +4722,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -4732,8 +4732,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -4742,8 +4742,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4752,8 +4752,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -4762,8 +4762,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -4772,8 +4772,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -4782,8 +4782,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -4792,8 +4792,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -4802,8 +4802,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -4812,8 +4812,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4822,8 +4822,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -4832,8 +4832,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -4842,8 +4842,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -4852,8 +4852,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -4862,8 +4862,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -4872,8 +4872,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -4882,8 +4882,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4892,8 +4892,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -4902,8 +4902,8 @@
         "symptom_id": "Uśmiech poprzeczny"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -4912,8 +4912,8 @@
         "symptom_id": "Uśmiech poprzeczny"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -4922,8 +4922,8 @@
         "symptom_id": "Uśmiech poprzeczny"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -4932,8 +4932,8 @@
         "symptom_id": "Uśmiech poprzeczny"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -4942,8 +4942,8 @@
         "symptom_id": "Uśmiech poprzeczny"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -4952,8 +4952,8 @@
         "symptom_id": "Uśmiech poprzeczny"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -4962,8 +4962,8 @@
         "symptom_id": "Uśmiech poprzeczny"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -4972,8 +4972,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -4982,8 +4982,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -4992,8 +4992,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5002,8 +5002,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5012,8 +5012,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5022,8 +5022,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "ck_level",
             "value": "norma"
@@ -5032,8 +5032,8 @@
         "symptom_id": "CK"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "ck_level",
             "value": "powyżej normy do 1000"
@@ -5042,92 +5042,92 @@
         "symptom_id": "CK"
     } ,    
     {
-        "required": "false",
-        "excluding": "true",
+        "required": false,
+        "excluding": true,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "true",
-        "excluding": "false",
+        "required": true,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Asymetryczne odstawanie łopatek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Niedosłuch"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Zaburzenia rytmu serca"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Zaburzenia funkcji poznawczych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Padaczka"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Dominujące zajęcie mięśni twarzy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Zanik mięśni ramion"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Hiperlordoza lędźwiowa"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Wystający brzuch"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Ból mięśni"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "FSHD",
         "symptom_id": "Spanie z otwartymi oczami"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5136,8 +5136,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -5146,8 +5146,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5156,8 +5156,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5166,8 +5166,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5176,8 +5176,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5186,8 +5186,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5196,8 +5196,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5206,8 +5206,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5216,8 +5216,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5226,8 +5226,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5236,8 +5236,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5246,8 +5246,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5256,8 +5256,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5266,8 +5266,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5276,8 +5276,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5286,8 +5286,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5296,8 +5296,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5306,8 +5306,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5316,8 +5316,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5326,8 +5326,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5336,8 +5336,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5346,8 +5346,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5356,8 +5356,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5366,8 +5366,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5376,8 +5376,8 @@
         "symptom_id": "Brak możliwości gwizdania/nadęcia policzków"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5386,8 +5386,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5396,8 +5396,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5406,8 +5406,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5416,8 +5416,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5426,8 +5426,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5436,8 +5436,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5446,8 +5446,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5456,8 +5456,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5466,8 +5466,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -5476,8 +5476,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5486,8 +5486,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5496,8 +5496,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5506,8 +5506,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5516,8 +5516,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5526,8 +5526,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5536,8 +5536,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5546,8 +5546,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5556,8 +5556,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -5566,8 +5566,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5576,8 +5576,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5586,8 +5586,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5596,8 +5596,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5606,8 +5606,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5616,8 +5616,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5626,8 +5626,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5636,8 +5636,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5646,8 +5646,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -5656,8 +5656,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5666,8 +5666,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5676,8 +5676,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5686,8 +5686,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5696,8 +5696,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5706,8 +5706,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5716,8 +5716,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5726,8 +5726,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5736,8 +5736,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -5746,8 +5746,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5756,8 +5756,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5766,8 +5766,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5776,8 +5776,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5786,8 +5786,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5796,8 +5796,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5806,8 +5806,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5816,8 +5816,8 @@
         "symptom_id": "Niedomykanie powiek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "ck_level",
             "value": "norma"
@@ -5826,8 +5826,8 @@
         "symptom_id": "CK"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id":  {
             "name": "ck_level",
             "value": "powyżej normy do 1000"
@@ -5836,71 +5836,71 @@
         "symptom_id": "CK"
     } ,
     {
-        "required": "false",
-        "excluding": "true",
+        "required": false,
+        "excluding": true,
         "characteristic_id":  null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Oftalmopegia"
     } ,
     {
-        "required": "true",
-        "excluding": "false",
+        "required": true,
+        "excluding": false,
         "characteristic_id":  null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Miotonia - trudności w rozkurczu mięśnia np. otworzeniu zaciśniętej pięści, trudności w zainicjowaniu ruchu"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Łysienie czołowe"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Zaćma"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Insulinoodporność"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "DM1/DM2",
         "symptom_id": "OBS (obturacyjny bezdech senny)"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Ból mięśni"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Hipotonia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "DM1/DM2",
         "symptom_id": "Zaburzenia rytmu serca"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5909,8 +5909,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -5919,8 +5919,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -5929,8 +5929,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -5939,8 +5939,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -5949,8 +5949,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -5959,8 +5959,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -5969,8 +5969,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -5979,8 +5979,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -5989,8 +5989,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -5999,8 +5999,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6009,8 +6009,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -6019,8 +6019,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6029,8 +6029,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6039,8 +6039,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6049,8 +6049,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -6059,8 +6059,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -6069,8 +6069,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6079,8 +6079,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6089,8 +6089,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6099,8 +6099,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -6109,8 +6109,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6119,8 +6119,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6129,8 +6129,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6139,8 +6139,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -6149,8 +6149,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -6159,8 +6159,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6169,8 +6169,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6179,8 +6179,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6189,8 +6189,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "poniżej 10 roku życia"
@@ -6199,8 +6199,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6209,8 +6209,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6219,8 +6219,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6229,8 +6229,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "powyżej 50 roku życia"
@@ -6239,8 +6239,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "tak"
@@ -6249,8 +6249,8 @@
         "symptom_id": "Niedowład mięśni osiowych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6279,85 +6279,85 @@
         "symptom_id": "CK"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Hiperlordoza lędźwiowa"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Powiększony język"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Hipotonia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Przewlekła niewydolność oddechowa"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "ZaparciaPrzodopochylenie miednicy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Przerost łydek"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Skolioza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Ból mięśni"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Kifoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Kardiomiopatia"
     } ,
     {
-        "required": "true",
-        "excluding": "false",
+        "required": true,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "choroba Pompego",
         "symptom_id": "Powoli postępujące zajęcie obręczy biodrowej i barkowej"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6366,8 +6366,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6376,8 +6376,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -6386,8 +6386,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6396,8 +6396,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6406,8 +6406,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6416,8 +6416,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6426,8 +6426,8 @@
         "symptom_id": "Ptoza"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6436,8 +6436,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6446,8 +6446,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6456,8 +6456,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6466,8 +6466,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6476,8 +6476,8 @@
         "symptom_id": "Dysfagia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6486,8 +6486,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6496,8 +6496,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6506,8 +6506,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6516,8 +6516,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6526,8 +6526,8 @@
         "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6536,8 +6536,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6546,8 +6546,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6556,8 +6556,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6566,8 +6566,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6576,8 +6576,8 @@
         "symptom_id": "Zaburzenia mowy"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6586,8 +6586,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6596,8 +6596,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -6606,8 +6606,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6616,8 +6616,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6626,8 +6626,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6636,8 +6636,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6646,8 +6646,8 @@
         "symptom_id": "Proksymalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6656,8 +6656,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6666,8 +6666,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -6676,8 +6676,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6686,8 +6686,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6696,8 +6696,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6706,8 +6706,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6716,8 +6716,8 @@
         "symptom_id": "Proksymalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6726,8 +6726,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6736,8 +6736,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -6746,8 +6746,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6756,8 +6756,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6766,8 +6766,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6776,8 +6776,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6786,8 +6786,8 @@
         "symptom_id": "Dystalny niedowład kończyn górnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "zmienność w czasie",
             "value": "stałe/postępujące"
@@ -6796,8 +6796,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "symetryczny"
@@ -6806,8 +6806,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "symetria",
             "value": "asymetryczny"
@@ -6816,8 +6816,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 10 do 20 roku życia"
@@ -6826,8 +6826,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 20 do 30 roku życia"
@@ -6836,8 +6836,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "wiek podczas wystapienia pierwszych objawów",
             "value": "od 30 do 50 roku życia"
@@ -6846,8 +6846,8 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie"
@@ -6856,35 +6856,36 @@
         "symptom_id": "Dystalny niedowład kończyn dolnych"
     } ,
     {
-        "required": "false",
-        "excluding": "true",
+        "required": false,
+        "excluding": true,
         "characteristic_id": null,
         "disease_id": "SBMA (choroba Kennedy'ego)",
         "symptom_id": "Płeć żeńska"
-    } {
-        "required": "false",
-        "excluding": "false",
+    },
+    {
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "SBMA (choroba Kennedy'ego)",
         "symptom_id": "Ból mięśni"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "SBMA (choroba Kennedy'ego)",
         "symptom_id": "Niepłodność - oligospermia"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "SBMA (choroba Kennedy'ego)",
         "symptom_id": "Zanik jąder"
     } ,
     {
-        "required": "false",
-        "excluding": "false",
+        "required": false,
+        "excluding": false,
         "characteristic_id": null,
         "disease_id": "SBMA (choroba Kennedy'ego)",
         "symptom_id": "Drżenie"
