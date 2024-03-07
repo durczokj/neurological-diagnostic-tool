@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Swal from 'sweetalert2';
 // import Button from '@mui/material/Button'
 // import Autocomplete from '@mui/material/Autocomplete'
 // import TextField from '@mui/material/TextField'
@@ -19,6 +20,46 @@ import { useTranslation } from 'react-i18next'
 import { theme } from '@/shared/utils/styles'
 
 import symptomsService from '@/App/services/symptoms'
+
+// red flags can be defined as single symptomps (like ból dupy)
+// or as composition of symptoms (CK1 but only combined with CK2)
+const redFlags = [['CK1', 'CK2'], ['ból dupy']]
+
+function redFlagPopUp(detectedRedFlags) {
+    const formattedRedFlags = detectedRedFlags.map(redFlag => `<li>${redFlag}</li>`).join('');
+    Swal.fire({
+        title: 'Wykryto symptom, krytyczny dla życia!',
+        html: `
+        Symptomy sklasyfikowane jako groźne dla życia:<br>
+            <ul style="text-align: left;">${formattedRedFlags}</ul>
+        Prosimy o udanie się do najbliższego szpitala.
+        `,
+        icon: 'warning',
+        confirmButtonText: 'Rozumiem'
+    });
+}
+
+function checkRedFlag(newSymptoms) {
+    let newSymptomsNames = newSymptoms.map(obj => obj.name);
+    let redFlagsDetected = []
+    for (let redFlagCompIdx = 0; redFlagCompIdx < redFlags.length; redFlagCompIdx++) {
+        let shouldBeAdded = true;
+        const redFlagSymptomsComposition = redFlags[redFlagCompIdx];
+        for (let redFlagSymptomIdx = 0; redFlagSymptomIdx < redFlagSymptomsComposition.length; redFlagSymptomIdx++) {
+            const redFlagSymptom = redFlagSymptomsComposition[redFlagSymptomIdx];
+            if (!newSymptomsNames.includes(redFlagSymptom)) {
+                shouldBeAdded = false;
+            }
+        }
+        if (shouldBeAdded) {
+            redFlagsDetected.push(redFlagSymptomsComposition)
+        }
+    }
+
+    if (redFlagsDetected.length > 0) {
+        redFlagPopUp(redFlagsDetected);
+    }
+}
 
 export default function Symptoms({ renderQuestionsScreen }) {
 
@@ -56,6 +97,16 @@ export default function Symptoms({ renderQuestionsScreen }) {
         //   name: "CK",
         //   display_name: "CK",
         //   description: "CK"
+        // },
+        // {
+        //   name: "CK1",
+        //   display_name: "CK1",
+        //   description: "CK1"
+        // },
+        // {
+        //   name: "CK2",
+        //   display_name: "CK2",
+        //   description: "CK2"
         // }])
         symptomsService
             .getSymptomsList()
@@ -91,6 +142,7 @@ export default function Symptoms({ renderQuestionsScreen }) {
                 multiple
                 onChange={(event, newValue) => {
                     console.log(newValue)
+                    checkRedFlag(newValue)
                     setValue(newValue)
                 }}
                 id="combo-box-symptoms"
