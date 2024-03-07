@@ -12,26 +12,21 @@ async def get_symptoms():
 
 async def create_symptom(symptom, current_user) -> SymptomOutSchema:
     symptom_dict = symptom.dict(exclude_unset=True)
-    symptom_dict["author_id"] = current_user.id
     symptom_obj = await Symptoms.create(**symptom_dict)
     return await SymptomOutSchema.from_tortoise_orm(symptom_obj)
 
 
-async def update_symptom(symptom_id, symptom, current_user) -> SymptomOutSchema:
+async def update_symptom(symptom_name, symptom) -> SymptomOutSchema:
     try:
-        db_symptom = await SymptomOutSchema.from_queryset_single(Symptoms.get(id=symptom_id))
+        db_symptom = await SymptomOutSchema.from_queryset_single(Symptoms.get(name=symptom_name))
     except DoesNotExist:
-        raise HTTPException(status_code=404, detail=f"Symptom {symptom_id} not found")
+        raise HTTPException(status_code=404, detail=f"Symptom {symptom_name} not found")
 
-    if db_symptom.author.id == current_user.id:
-        await Symptoms.filter(id=symptom_id).update(**symptom.dict(exclude_unset=True))
-        return await SymptomOutSchema.from_queryset_single(Symptoms.get(id=symptom_id))
+    await Symptoms.filter(name=symptom_name).update(**symptom.dict(exclude_unset=True))
+    return await SymptomOutSchema.from_queryset_single(Symptoms.get(name=symptom_name))
 
-    raise HTTPException(status_code=403, detail=f"Not authorized to update")
-
-
-async def delete_symptom(symptom_id) -> Status:
-    deleted_count = await Symptoms.filter(id=symptom_id).delete()
+async def delete_symptom(symptom_name) -> Status:
+    deleted_count = await Symptoms.filter(name=symptom_name).delete()
     if not deleted_count:
-        raise HTTPException(status_code=404, detail=f"Symptom {symptom_id} not found")
-    return Status(message=f"Deleted symptom {symptom_id}")
+        raise HTTPException(status_code=404, detail=f"Symptom {symptom_name} not found")
+    return Status(message=f"Deleted symptom {symptom_name}")

@@ -1,6 +1,6 @@
 import api from '@/shared/utils/api'
 
-const baseUrl = '/api/login'
+const baseUrl = '/login'
 
 const login = async credentials => {
   const response = api.post(baseUrl, credentials)

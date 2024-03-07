@@ -1,5 +1,25 @@
 {
     "app": { 
         "helloWorld": "Witaj, świecie!"
+    },
+    "symptoms": {
+        "choose": "Wybierz swoje symptomy"
+    },
+    "questions": {
+        "symmetric": "Czy symptom jest symetryczny (dotyczy obu stron ciała, np. prawej i lewej ręki)?",
+        "yes": "tak",
+        "no": "nie",
+        "severity": "Czy natężenie objawu zmienia się z czasem? Czy występują okresy pogorszenia i poprawy (zmienne), czy też natężenie objawu jest stałe/zwiększa się stale z czasem?",
+        "variable": "zmienne",
+        "persistent": "stałe",
+        "onset": "Kiedy pierwszy raz wystąpiły objawy?",
+        "worsen": "Jak długo natężenie symptomu się potęguje?",
+        "days": "dni",
+        "weeks": "tygodnie",
+        "months": "miesiące",
+        "years": "lata",
+        "constant": "stałe natężenie",
+        "family": "Czy inny członkowie rodziny też mieli ten objaw?",
+        "CK": "Jaki jest Twój poziom CK?"
     }
 }
