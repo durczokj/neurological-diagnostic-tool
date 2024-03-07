@@ -1,12 +1,12 @@
 import json
 
-is_initial_symptom = False
+is_initial_symptom = True
 #my_symptoms = ["Dystalny niedowład kończyn górnych", "Dystalny niedowład kończyn dolnych" , 
 #                "Proksymalny niedowład kończyn górnych", "Proksymalny niedowład kończyn dolnych" ]
              
-#              'Ptoza', "Dwojenie obrazu", "Oftalmopegia","Dysfagia", "Zaburzenia gryzienia/żucia pokarmów", "Duszność",
-#                "Zaburzenia mowy", "Proksymalny niedowład kończyn górnych", "Proksymalny niedowład kończyn dolnych",
-#               "Dystalny niedowład kończyn górnych", "Dystalny niedowład kończyn dolnych" ]
+my_symptoms = ['Ptoza', "Dwojenie obrazu","Dysfagia", "Zaburzenia gryzienia/żucia pokarmów", "Duszność",
+                "Zaburzenia mowy", "Proksymalny niedowład kończyn górnych", "Proksymalny niedowład kończyn dolnych",
+              "Dystalny niedowład kończyn górnych", "Dystalny niedowład kończyn dolnych" ]
 #my_symptoms = ["RZS - choroba współistniejąca","Hashimoto lub niedoczynność tarczycy - choroba współistniejąca","Choroba Graves-Basedowa - choroba współistniejąca","Cukrzyca t1 - choroba współistniejąca"
 #               "Pogorszenie po wysiłku", "Poprawa po odpoczynku","Pogorszenie w czasie infekcji"]
 
@@ -15,7 +15,7 @@ is_initial_symptom = False
                # "Suchość w jamie ustnej", "Suchość spojówek","Omdlenia ortostatyczne", "Impotencja", "Zaparcia", "Arefleksja"]
 
 
-my_symptoms = ["Zaburzenia czucia", "Dominujące zajęcie mięśni obręczy barkowej (ramion) i biodrowej (ud)" ]
+#my_symptoms = ["Zaburzenia czucia", "Dominujące zajęcie mięśni obręczy barkowej (ramion) i biodrowej (ud)" ]
 
 #my_symptoms = ["Poziom CK w normie", "Płeć żeńska", "Kardiomiopatia", "Opóźnienie rozwoju intelektualnego"
 #               "Wstawanie z podłogi wspinając sę po sobie - objaw Gowers'a", "Hiperlordoza lędźwiowa", "Hipotonia",
@@ -25,8 +25,8 @@ my_dict = {
         "required": "false",
         "excluding": "false",
         "characteristic_id": None,
-        "disease_id": "LGMD",
-        "symptom_id": "Ptoza"
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "zespół miasteniczny Lamberta-Eatona"
         }
 
 for symptom in my_symptoms:

@@ -120,4 +120,4 @@ async def recommend_next_symptom(diseases: List[DiseaseMatchOutSchema], current_
         # Return the symptom occurring in the least number of diseases
         return await SymptomOutSchema.from_tortoise_orm(symptom_occurrences[0].symptom)
 
-    raise HTTPException(status_code=404, detail="No suitable next symptom found.")
+    raise HTTPException(status_code=204, detail="No suitable next symptom found.")
