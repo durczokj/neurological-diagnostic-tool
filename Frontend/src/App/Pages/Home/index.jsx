@@ -16,7 +16,7 @@ const HomePage = ({ setUser }) => {
       <Box
         sx={{
           width: '100%',
-          backgroundColor: 'secondary.main',
+          backgroundColor: '#0C2865',
           color: 'white',
           padding: '1rem',
           position: 'fixed',
@@ -45,14 +45,12 @@ const HomePage = ({ setUser }) => {
           >
             Cześć, jestem czatem Warszawskiego Uniwersytetu Medycznego! A Ty kim jesteś?
           </Typography>
-          <Box mt={2} display="flex" flexDirection="column" alignItems="flex-end" width="100%">
+          <Box mt={2} display="flex" justifyContent="flex-end" width="100%">
             <Button
               variant="contained"
               color="primary"
               style={{
-                marginBottom: '1rem',
-                maxWidth: '80%',
-                alignSelf: 'flex-end',
+                marginRight: '1rem',
                 fontFamily: 'Calibri Light',
               }}
               onClick={() => handleSelectUser('patient')}
@@ -62,7 +60,7 @@ const HomePage = ({ setUser }) => {
             <Button
               variant="contained"
               color="primary"
-              style={{ maxWidth: '80%', alignSelf: 'flex-end', fontFamily: 'Calibri Light' }}
+              style={{ fontFamily: 'Calibri Light' }}
               onClick={() => handleSelectUser('doctor')}
             >
               Lekarzem
