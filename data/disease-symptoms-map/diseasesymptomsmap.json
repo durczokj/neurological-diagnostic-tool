@@ -3980,6 +3980,566 @@
         },
         "disease_id": "LGMD",
         "symptom_id": "CK"
-    }
+    },
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } 
 ]
 }

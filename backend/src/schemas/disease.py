@@ -15,3 +15,11 @@ DiseaseOutSchema = pydantic_model_creator(
 )
 class DiseaseMatchOutSchema(DiseaseOutSchema):
     matching_symptoms_count: int  # Add the count of matching symptoms
+
+
+GroupOutSchema = pydantic_model_creator(
+    Disease, name="GroupOut", exclude =[
+      "modified_at", "created_at", "diseasesymptomsmaps", "name", "subgroup", "description"])
+
+class GroupMatchOutSchema(GroupOutSchema):
+    matching_symptoms_count: int  # Add the count of matching symptoms
