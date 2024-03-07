@@ -43,25 +43,6 @@ const App = () => {
   }
 
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <AppBar
-        position="absolute"
-        color="default"
-        elevation={0}
-        sx={{
-          position: 'relative',
-          borderBottom: (t) => `1px solid ${t.palette.divider}`,
-        }}
-      >
-        <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
-            Company name2
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Container component="main" sx={{ mb: 4, width: '75%', height: '75vh' }}>
-        <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
            <Routes>
               <Route path="/login" element={ <SignIn /> } />
               <Route path="/select" element={ <Symptoms symptoms={symptoms} renderQuestionsScreen={renderQuestionsScreen}/> } />
@@ -69,9 +50,6 @@ const App = () => {
               <Route path="/results" element={ <Results diseases={diseases} /> } />
               <Route path="/home" element={ <Home user={user} setUser={setUser} /> } />
           </Routes>
-        </Paper>
-      </Container>
-    </React.Fragment>
   )
 }
 
