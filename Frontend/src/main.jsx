@@ -10,10 +10,10 @@ import browserHistory from './browserHistory';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#880E4F', // Your specified color for primary
+      main: '#880015', // Your specified color for primary
     },
     secondary: {
-      main: '#0C2865', // Your specified color for secondary
+      main: '#0E2E75', // Your specified color for secondary
     },
     // ...other options
   },

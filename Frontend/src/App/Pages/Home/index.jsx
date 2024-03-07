@@ -1,3 +1,4 @@
+// Home/index.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Container, Typography, Button, Box } from '@mui/material';
@@ -15,20 +16,21 @@ const HomePage = ({ setUser }) => {
       <Box
         sx={{
           width: '100%',
-          backgroundColor: '#0C2865',
+          backgroundColor: 'secondary.main',
           color: 'white',
           padding: '1rem',
           position: 'fixed',
           top: 0,
           left: 0,
           zIndex: 1000,
+          fontFamily: 'Calibri Light',
         }}
       >
         <Typography variant="h4" align="center" style={{ fontWeight: 'bold' }}>
           Witaj! Powiedz nam co Ci dolega?
         </Typography>
       </Box>
-      <Container style={{ marginTop: '6rem' }}>
+      <Container style={{ marginTop: '6rem', fontFamily: 'Calibri Light' }}>
         <Box display="flex" flexDirection="column" alignItems="flex-start">
           <Typography
             variant="body1"
@@ -43,11 +45,16 @@ const HomePage = ({ setUser }) => {
           >
             Cześć, jestem czatem Warszawskiego Uniwersytetu Medycznego! A Ty kim jesteś?
           </Typography>
-          <Box mt={2} display="flex" flexDirection="column" alignItems="flex-end">
+          <Box mt={2} display="flex" flexDirection="column" alignItems="flex-end" width="100%">
             <Button
               variant="contained"
               color="primary"
-              style={{ marginBottom: '1rem', maxWidth: '80%', alignSelf: 'flex-end' }}
+              style={{
+                marginBottom: '1rem',
+                maxWidth: '80%',
+                alignSelf: 'flex-end',
+                fontFamily: 'Calibri Light',
+              }}
               onClick={() => handleSelectUser('patient')}
             >
               Pacjentem
@@ -55,7 +62,7 @@ const HomePage = ({ setUser }) => {
             <Button
               variant="contained"
               color="primary"
-              style={{ maxWidth: '80%', alignSelf: 'flex-end' }}
+              style={{ maxWidth: '80%', alignSelf: 'flex-end', fontFamily: 'Calibri Light' }}
               onClick={() => handleSelectUser('doctor')}
             >
               Lekarzem
