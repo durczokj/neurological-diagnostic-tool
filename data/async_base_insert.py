@@ -31,7 +31,7 @@ class BaseInsert():
         }
 
         try:
-            response = await self.session.post('http://localhost:5001/register', json=register_data)
+            response = await self.session.post('http://backend:5001/register', json=register_data)
         # handle 401 as user already exists
         except httpx.HTTPStatusError as e:
             if e.response.status_code == 401:
@@ -52,13 +52,13 @@ class BaseInsert():
             'Accept': 'application/json'
         }
         try:
-            response = await self.session.post('http://localhost:5001/login', data=login_data, headers=headers)
+            response = await self.session.post('http://backend:5001/login', data=login_data, headers=headers)
             print(response.content)
         except Exception as e:
             raise e #Exception('Login failed') from e
 
     async def insert(self, endpoint, data):
-        response = await self.session.post(f'http://localhost:5001/{endpoint}', json=data)
+        response = await self.session.post(f'http://backend:5001/{endpoint}', json=data)
         if response.status_code == 200:
             pass
             # print(f"Request succeeded for table {endpoint}")
@@ -81,7 +81,7 @@ class BaseInsert():
     async def health_check_loop(self):
         while True:
             try:
-                response = await self.session.get('http://localhost:5001/')
+                response = await self.session.get('http://backend:5001/')
                 print(response)
                 print("Health check status is ok.")
                 break
