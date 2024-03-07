@@ -21,11 +21,11 @@ class MappedInsert(BaseInsert):
             data_processed = self.get_id_by_name_value(characteristics, data)
             for record in data_processed:
                 # print(record)
-                #await self.session.post(f'http://localhost:5001/{self.endpoint}', record)
+                #await self.session.post(f'http://backend:5001/{self.endpoint}', record)
                 await self.insert(self.endpoint, record)
 
     async def get_characteristics(self):
-        characteristics = await self.session.get('http://localhost:5001/characteristic')
+        characteristics = await self.session.get('http://backend:5001/characteristic')
         return characteristics.json()
     
     def get_dsmap_file(self):
