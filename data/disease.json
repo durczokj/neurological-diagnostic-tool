@@ -59,7 +59,7 @@
     "description" : "choroba mieśni, w których włókna mięśniowe z róznych powodów nie funkcjonują prawidłowo"  
 },
 {
-    "name" : "Choroba Pompego",
+    "name" : "choroba Pompego",
     "group" :  "miopatia",
     "subgroup" : "miopatia wrodzona",
     "description" : "choroba mieśni, w których włókna mięśniowe z róznych powodów nie funkcjonują prawidłowo"  
@@ -69,5 +69,11 @@
     "group" :  "MND",
     "subgroup" : "MND",
     "description" : "stwardnienie zanikowe boczne"  
+},
+{
+    "name" : "FSHD",
+    "group" :  "miopatia",
+    "subgroup" : "dystorfia",
+    "description" : "Mięśniowa dystrofia twarzowo-łopatkowo-ramienna (ang. facioscapulohumeral dystrophy, FSHD) charakteryzuje się postępującym osłabieniem mięśni z ogniskowym zajęciem mięśni twarzy, obręczy barkowej i ramion."  
 }]
 }
