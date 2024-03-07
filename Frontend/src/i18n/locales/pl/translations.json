@@ -21,10 +21,5 @@
         "constant": "stałe natężenie",
         "family": "Czy inny członkowie rodziny też mieli ten objaw?",
         "CK": "Jaki jest Twój poziom CK?"
-    },
-    "commonHttpPages": {
-        "notFound": "Strona nie została znaleziona",
-        "notAuthorized": "Nie masz uprawnień do wyświetlenia tej strony",
-        "backToLogin": "Wróć do strony logowania"
     }
 }

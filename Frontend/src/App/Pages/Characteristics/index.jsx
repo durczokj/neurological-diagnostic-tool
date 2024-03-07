@@ -19,7 +19,7 @@ import { theme } from '@/shared/utils/styles'
 import { useParams } from "react-router-dom"
 
 export default function Characteristics({ symptoms, answeredQuestions, handleAnsweredQuestions }) {
-    const [symmetric, setSymmetric] = React.useState('') //react hook
+    const [symmetric, setSymmetric] = React.useState('')
     const [severity, setSeverity] = React.useState('')
     const [onset, setOnset] = React.useState('')
     const [worsen, setWorsen] = React.useState('')
@@ -83,7 +83,7 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
     //     can_worsen_over_time: true,
     //     can_other_family_members_have_it: true,
     // }
-
+    
     return (
         <ThemeProvider theme={theme}>
             { console.log(symptom.name) }
@@ -102,7 +102,7 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                                             name="symmetric-question"
                                             value={symmetric}
                                             onChange={handleSymmetric}
-                                        >
+                                        >   
                                             <FormControlLabel value="symetryczne" control={<Radio />} label={t('questions.yes')} />
                                             <FormControlLabel value="asymetryczne" control={<Radio />} label={t('questions.no')} />
                                         </RadioGroup>
@@ -120,7 +120,7 @@ export default function Characteristics({ symptoms, answeredQuestions, handleAns
                                             name="severity-question"
                                             value={severity}
                                             onChange={handleSeverity}
-                                        >
+                                        >   
                                             <FormControlLabel value="zmienne" control={<Radio />} label={t('questions.variable')} />
                                             <FormControlLabel value="stałe" control={<Radio />} label={t('questions.persistent')} />
                                         </RadioGroup>

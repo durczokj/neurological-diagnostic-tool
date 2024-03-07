@@ -96,7 +96,6 @@ const App = () => {
               <Route path="/login" element={ <SignIn /> } />
               <Route path="/select" element={ <Symptoms symptoms={symptoms} renderQuestionsScreen={renderQuestionsScreen}/> } />
               <Route path="/characteristics/:question" element={ <Characteristics symptoms={choices} answeredQuestions={answeredQuestions} handleAnsweredQuestions={handleAnsweredQuestions} /> } />
-              <Route path="/admin/symptoms" element={ <Symptoms /> } />
           </Routes>
         </Paper>
       </Container>
