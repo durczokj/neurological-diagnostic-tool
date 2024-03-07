@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next'
 import { theme } from '@/shared/utils/styles'
 
 export default function Characteristics() {
-    const [symmetric, setSymmetric] = React.useState('')
+    const [symmetric, setSymmetric] = React.useState('') //react hook
     const [severity, setSeverity] = React.useState('')
     const [onset, setOnset] = React.useState('')
     const [worsen, setWorsen] = React.useState('')
