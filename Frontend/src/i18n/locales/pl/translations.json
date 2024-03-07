@@ -2,6 +2,9 @@
     "app": { 
         "helloWorld": "Witaj, świecie!"
     },
+    "symptoms": {
+        "choose": "Wybierz swoje symptomy"
+    },
     "questions": {
         "symmetric": "Czy symptom jest symetryczny (dotyczy obu stron ciała, np. prawej i lewej ręki)?",
         "yes": "tak",
@@ -16,7 +19,8 @@
         "months": "miesiące",
         "years": "lata",
         "constant": "stałe natężenie",
-        "family": "Czy inny członkowie rodziny też mieli ten objaw?"
+        "family": "Czy inny członkowie rodziny też mieli ten objaw?",
+        "CK": "Jaki jest Twój poziom CK?"
     },
     "commonHttpPages": {
         "notFound": "Strona nie została znaleziona",

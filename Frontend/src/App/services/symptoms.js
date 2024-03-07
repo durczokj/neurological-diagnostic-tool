@@ -2,12 +2,16 @@ import api from '@/shared/utils/api'
 
 const baseUrl = '/symptoms'
 
-export default const getSymptoms = async () => {
-    const response = api.get(baseUrl)
-    return response
+const postSymptomsList = async symptomList => {
+    const symptom = api.post(baseUrl, symptomList)
+
+    return symptom
 }
 
-export default const postSymptoms = async (symptoms) => {
-    const response = api.post(baseUrl, symptoms)
-    return response
+const getSymptomsList = async () => {
+  const symptoms = api.get(baseUrl)
+
+  return symptoms
 }
+
+export default { postSymptomsList, getSymptomsList }

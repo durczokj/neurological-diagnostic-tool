@@ -2,6 +2,9 @@
     "app": { 
         "helloWorld": "Hello, world!"
     },
+    "symptoms": {
+        "choose": "Choose your symptoms"
+    },
     "questions": {
         "symmetric": "Is the symptom symmetric (affects both sides of the body, eg. right and left hand)?",
         "yes": "yes",
@@ -22,7 +25,8 @@
         "months": "months",
         "years": "years",
         "constant": "constant intensity",
-        "family": "Did other family members have the same symptome?"
+        "family": "Did other family members have the same symptome?",
+        "CK": "What's your CK level?"
     },
     "commonHttpPages": {
         "notFound": "Page not found",
