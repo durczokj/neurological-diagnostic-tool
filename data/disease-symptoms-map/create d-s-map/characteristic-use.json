@@ -1,14 +1,32 @@
 {
     "characteristic": [
-
         {
-            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
-            "value": "tak" 
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące" 
+        },
+        {
+            "name": "symetria",
+            "value": "symetryczny" 
+        },
+        
+        {
+            "name": "symetria",
+            "value": "asymetryczny" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia" 
+        },
+        {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia" 
         },
         {
             "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
             "value": "nie" 
-        }
-        
-    ]
+        }]
 }
