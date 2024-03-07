@@ -17,5 +17,10 @@
         "years": "lata",
         "constant": "stałe natężenie",
         "family": "Czy inny członkowie rodziny też mieli ten objaw?"
+    },
+    "commonHttpPages": {
+        "notFound": "Strona nie została znaleziona",
+        "notAuthorized": "Nie masz uprawnień do wyświetlenia tej strony",
+        "backToLogin": "Wróć do strony logowania"
     }
 }

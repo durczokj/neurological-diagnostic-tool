@@ -23,5 +23,10 @@
         "years": "years",
         "constant": "constant intensity",
         "family": "Did other family members have the same symptome?"
+    },
+    "commonHttpPages": {
+        "notFound": "Page not found",
+        "notAuthorized": "You are not authorized to view this page",
+        "backToLogin": "Back to login page"
     }
 }
