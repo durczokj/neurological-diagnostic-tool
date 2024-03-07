@@ -12,7 +12,7 @@ import SignIn from './Pages/Login'
 import Characteristics from './Pages/Characteristics'
 import Symptoms from './Pages/Symptoms'
 import Results from './Pages/Results'
-
+import Home from './Pages/Home'
 import symptomsService from './services/symptoms'
 
 import './fontStyles.css'
@@ -20,7 +20,7 @@ import './fontStyles.css'
 const App = () => {
 
   const navigate = useNavigate()
-
+  const [user, setUser] = useState([])
   const [diseases, setDiseases] = useState([])
   const [symptoms, setSymptoms] = useState([])
   const [choices, setChoices] = useState([])
@@ -67,6 +67,7 @@ const App = () => {
               <Route path="/select" element={ <Symptoms symptoms={symptoms} renderQuestionsScreen={renderQuestionsScreen}/> } />
               <Route path="/characteristics/:question" element={ <Characteristics symptoms={choices} answeredQuestions={answeredQuestions} handleAnsweredQuestions={handleAnsweredQuestions} /> } />
               <Route path="/results" element={ <Results diseases={diseases} /> } />
+              <Route path="/home" element={ <Home user={user} setUser={setUser} /> } />
           </Routes>
         </Paper>
       </Container>
