@@ -6,7 +6,7 @@ from tortoise.queryset import Q
 from typing import List
 
 from src.schemas.diseasesymptoms_map import DiseaseSymptomsMapOutSchema
-from src.schemas.disease import DiseaseCreateSchema, DiseaseMatchOutSchema, DiseaseOutSchema
+from src.schemas.disease import DiseaseCreateSchema, DiseaseMatchOutSchema, DiseaseOutSchema, GroupMatchOutSchema
 from src.schemas.users import UserOutSchema
 from src.database.models import Disease, DiseaseSymptomsMap
 from src.crud.disease import get_diseases, create_disease, update_disease, delete_disease
@@ -116,15 +116,11 @@ async def match_diseases_with_symptoms(symptoms: List[DiseaseSymptomsMapOutSchem
     return result
 
 
+async def find_diseases_from_symptoms(symptoms: List[SymptomResponseSchema], get_obligatory: bool = False):
 
-#obligatory, final disease list, if obligatory
-
-
-
-@router.post("/disease/from_symptoms", response_model=List[DiseaseMatchOutSchema])
-async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> List[DiseaseMatchOutSchema]:
     disease_sets = []
     excluded_diseases = set()
+    obligatory_diseases = set()
 
     async def query_for_disease(query: Q):
         matching_maps = await DiseaseSymptomsMap.filter(query).distinct().prefetch_related('disease')
@@ -135,7 +131,6 @@ async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> L
     for symptom in symptoms:
         # Initialize a list to hold the set of diseases for each characteristic
         disease_sets_for_symptom = []
-
         # Build and execute queries for each characteristic if provided
         characteristics = [
             ("symetria", symptom.symmetry_answer),
@@ -144,8 +139,11 @@ async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> L
             ("występowanie objawu w rodzinie (do 2 pokoleń wstecz)", symptom.exists_in_family_answer),
             ("ck_level", symptom.ck_level_answer)
         ]
+        characteristics = [(key, None) if value == 'nie dotyczy' else (key, value) for key, value in characteristics]
+        
+
         if not any(char_value for _, char_value in characteristics):
-            query = Q(symptom__name=symptom.name)
+            query = Q(symptom__name=symptom.name, excluding = False)
             diseases_for_characteristic = await query_for_disease(query)
             print(f"Symptom: {symptom.name}, Diseases: {diseases_for_characteristic}")
             if diseases_for_characteristic:
@@ -153,9 +151,16 @@ async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> L
 
             #Check for excluded diseases
             query_excl = Q(symptom__name=symptom.name, excluding=True)
-            excluded_disease = await query_for_disease(query_excl)
-            for excl in excluded_disease:
-                excluded_diseases.add(excl)
+            excl_diseases = await query_for_disease(query_excl)
+            for d in excl_diseases:
+                excluded_diseases.add(d)
+            if get_obligatory:
+                query_oblig = Q(symptom__name=symptom.name, required=True)
+                oblig_diseases = await query_for_disease(query_oblig)
+                
+                for d in oblig_diseases:
+                    obligatory_diseases.add(d)
+
 
         for char_name, char_value in characteristics:
             if char_value and char_value != "nie dotyczy":
@@ -167,25 +172,126 @@ async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> L
 
                 #Check for excluded diseases
                 query_excl = Q(symptom__name=symptom.name, characteristic__name=char_name, characteristic__value=char_value, excluding=True)
-                excluded_disease = await query_for_disease(query_excl)
-                for excl in excluded_disease:
-                    excluded_diseases.add(excl)
+                excl_disease = await query_for_disease(query_excl)
+                for d in excl_disease:
+                    excluded_diseases.add(d)
+
+                if get_obligatory:
+                    query_oblig = Q(symptom__name=symptom.name, required=True)
+                    oblig_diseases = await query_for_disease(query_oblig)
+                    for d in oblig_diseases:
+                        obligatory_diseases.add(d)
 
         # Find the intersection of diseases for all characteristics of this symptom
 
         if disease_sets_for_symptom:
             common_diseases = set.intersection(*disease_sets_for_symptom)
-            print(common_diseases)
             disease_sets.append(common_diseases)
 
-    # Find the intersection of diseases across all symptoms - at least two symptoms must match the disease
-    # maybe we should do union here...:
+    if not get_obligatory:
+        dict_out = {"diseases": disease_sets, "diseases_excl": excluded_diseases}
+    else:
+        dict_out = {"diseases": disease_sets, "diseases_excl": excluded_diseases, "diseases_oblig": obligatory_diseases}
+    
+    return dict_out
+
+
+
+@router.post("/disease/final_results_disease", response_model=List[DiseaseMatchOutSchema])
+async def get_diseases_from_symptoms_final(symptoms: List[SymptomResponseSchema]) -> List[DiseaseMatchOutSchema]:
+
+
+    diseases_from_symptoms_dict = await find_diseases_from_symptoms(symptoms, get_obligatory = True)
+    disease_sets = diseases_from_symptoms_dict['diseases']
+    excluded_diseases = diseases_from_symptoms_dict['diseases_excl']
+    obligatory_diseases = diseases_from_symptoms_dict['diseases_oblig']
+ 
+    common_diseases_across_symptoms = set()
+
+    if disease_sets and len(disease_sets)>1:
+        element_counter = Counter()
+        for s in disease_sets:
+            element_counter.update(s)
+        for element, count in element_counter.items():
+            if count >= 3:
+                common_diseases_across_symptoms.add(element)
+
+    for d in obligatory_diseases:
+        common_diseases_across_symptoms.add(d)
+
+    common_diseases_across_symptoms = common_diseases_across_symptoms.difference(excluded_diseases)
+
+    if len(common_diseases_across_symptoms)==0:
+        raise HTTPException(status_code=404, detail="No suitable diseases found.")
+
+    disease_counts = {disease: 0 for disease in common_diseases_across_symptoms}
+    for disease_set in disease_sets:
+        for disease in disease_set:
+            if disease in common_diseases_across_symptoms:
+                disease_counts[disease] += 1
+
+    # Fetch Disease objects for the final list of disease names
+    final_diseases = await Disease.filter(name__in=common_diseases_across_symptoms).all()
+        # Sort diseases by the count of matched symptoms in descending order
+    sorted_disease_names = sorted(disease_counts, key=disease_counts.get, reverse=True)
+
+    # Prepare the response
+    response = []
+    for disease_name in sorted_disease_names:
+        # Find the disease object from the list of final diseases
+        disease_obj = next((d for d in final_diseases if d.name == disease_name), None)
+        if disease_obj:
+            # Assuming DiseaseOutSchema can create an instance from a Disease model
+            disease_data = await DiseaseOutSchema.from_tortoise_orm(disease_obj)
+
+            # Append to the response list with the count of matched symptoms
+            response.append(DiseaseMatchOutSchema(
+                **disease_data.dict(),  # Convert the DiseaseOutSchema instance to a dict
+                matching_symptoms_count=disease_counts[disease_name]  # Add the count of matched symptoms
+            ))
+
+    return response
+
+
+
+@router.post("/disease/final_results_group", response_model=List[GroupMatchOutSchema])
+async def get_groups_from_symptoms_final(symptoms: List[SymptomResponseSchema]) -> List[GroupMatchOutSchema]:
+#grupa, count
+
+    diseases_count = await get_diseases_from_symptoms_final(symptoms)
+
+    group_counts_dict = {}
+    for disease in diseases_count:
+        group = disease.group
+        count = disease.matching_symptoms_count
+        if group in group_counts_dict:
+            group_counts_dict[group] += count
+        else:
+            group_counts_dict[group] = count
+
+    group_schema = [{'group': group, 'matching_symptoms_count': str(count)} for group, count in group_counts_dict.items()]
+    response = []
+    for group in group_schema:
+        response.append(GroupMatchOutSchema(**group))
+
+    return response
+
+
+
+@router.post("/disease/from_symptoms", response_model=List[DiseaseMatchOutSchema])
+async def get_diseases_from_symptoms(symptoms: List[SymptomResponseSchema]) -> List[DiseaseMatchOutSchema]:
+    
+    diseases_from_symptoms_dict = await find_diseases_from_symptoms(symptoms)
+    
+    disease_sets = diseases_from_symptoms_dict['diseases']
+    excluded_diseases = diseases_from_symptoms_dict['diseases_excl']
+
     
     if disease_sets:
         common_diseases_across_symptoms = set.union(*disease_sets)
     else:
         common_diseases_across_symptoms = set()
-        raise HTTPException(status_code=404, detail="No suitable disease found.")
+        raise HTTPException(status_code=404, detail="No suitable diseases found.")
  
     #Alternatively: for at least 2 symptoms matching a disease
     '''
