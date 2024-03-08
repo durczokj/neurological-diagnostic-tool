@@ -2,9 +2,9 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Container, Typography, Box } from '@mui/material';
 
-const DoctorResponse = () => {
+const PatientResponse = () => {
   const location = useLocation();
-  const diseases = location.state?.diseases || [];
+  const groups = location.state?.groups || [];
 
   return (
     <>
@@ -38,9 +38,9 @@ const DoctorResponse = () => {
               alignSelf: 'flex-start',
             }}
           >
-            Poniżej znajdziesz listę chorób, które najbardziej pasują do wprowadzonych objawów, uporządkowane według liczby pasujących objawów:
+            Na podstawie wprowadzonych objawów, istnieje prawdopodobieństwo, że cierpisz na chorobę należącą do jednej z poniższych grup. Zalecamy skonsultowanie się z lekarzem w celu uzyskania dokładniejszej diagnozy i odpowiedniego leczenia.
           </Typography>
-          {diseases.map((disease, index) => (
+          {groups.map((group, index) => (
             <Typography
               key={index}
               variant="body1"
@@ -54,17 +54,15 @@ const DoctorResponse = () => {
                 whiteSpace: 'pre-line',
               }}
             >
-              <strong style={{ fontWeight: 'bold' }}>{`Liczba pasujących objawów: `}{disease.matching_symptoms_count}</strong>
-              <strong style={{ fontWeight: 'bold' }}> {`\nNazwa: `}</strong>{disease.name}
-              <strong style={{ fontWeight: 'bold' }}>{`\nGrupa Chorób: `}</strong>{disease.group}
-              <strong style={{ fontWeight: 'bold' }}>{`\nPodgrupa: `}</strong>{disease.subgroup}
-              <strong style={{ fontWeight: 'bold' }}>{`\nOpis: `}</strong>{disease.description}
+                <strong style={{ fontWeight: 'bold' }}> {`Grupa Chorób: `}</strong>{group.group}
+                <strong style={{ fontWeight: 'bold' }}>{`\nLiczba pasujących objawów: `}</strong>{group.matching_symptoms_count}
             </Typography>
           ))}
+          
         </Box>
       </Container>
     </>
   );
 };
 
-export default DoctorResponse;
+export default PatientResponse;
