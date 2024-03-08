@@ -1,6 +1,6 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
-import { Container, Typography, Box } from '@mui/material';
+import { useLocation, Link } from 'react-router-dom';
+import { Container, Typography, Box, Button } from '@mui/material';
 
 const DoctorResponse = () => {
   const location = useLocation();
@@ -61,6 +61,31 @@ const DoctorResponse = () => {
               <strong style={{ fontWeight: 'bold' }}>{`\nOpis: `}</strong>{disease.description}
             </Typography>
           ))}
+          <Typography
+            variant="body1"
+            gutterBottom
+            style={{
+              backgroundColor: '#f0f0f0',
+              padding: '1rem',
+              borderRadius: '1rem',
+              maxWidth: '80%',
+              alignSelf: 'flex-start',
+              marginTop: '1rem',
+            }}
+          >
+            Jeśli potrzebujesz skierować pacjenta do specjalisty chorób nerwowo-mięśniowych, kliknij poniższy przycisk, aby uzyskać informacje kontaktowe:
+          </Typography>
+          <Box mt={2} display="flex" justifyContent="flex-end" width="100%">
+            <Button
+              variant="contained"
+              color="primary"
+              component={Link}
+              to="/specialist"
+              style={{ fontFamily: 'Calibri Light' }}
+            >
+              Skieruj do specjalisty
+            </Button>
+          </Box>
         </Box>
       </Container>
     </>
