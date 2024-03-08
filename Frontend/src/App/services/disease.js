@@ -1,27 +1,30 @@
 import api from '@/shared/utils/api'
+import axios from 'axios'
 
-const baseUrl = '/disease'
+const baseUrl = 'http://localhost:5001/disease'
 
-export const getDiseaseList = async () => {
-    const diseases = api.get(baseUrl)
+const getDiseaseList = () => {
+    const diseases = api.get(baseUrl).then(response => response.data)
     return diseases
 }
 
-export const createDisease = async (disease) => {
-    const createdDisease = api.post(baseUrl, disease)
+const createDisease = (disease) => {
+    const createdDisease = api.post(baseUrl, disease).then(response => response.data)
     return createdDisease
 }
 
-export const getDiseaseByName = async (disease_name) => {
-    const disease = api.get(`${baseUrl}/${disease_name}`)
+const getDiseaseByName = (disease_name) => {
+    const disease = api.get(`${baseUrl}/${disease_name}`).then(response => response.data)
     return disease
 }
 
-export const deleteDisease = async (disease_name) => {
+const deleteDisease = (disease_name) => {
     api.delete(`${baseUrl}/${disease_name}`)
 }
 
-export const updateDisease = async (disease) => {
-    const updatedDisease = api.patch(`${baseUrl}/${disease.name}`, disease)
+const updateDisease = (disease) => {
+    const updatedDisease = api.patch(`${baseUrl}/${disease.name}`, disease).then(response => response.data)
     return updatedDisease
 }
+
+export default { getDiseaseList, createDisease, getDiseaseByName, deleteDisease, updateDisease }

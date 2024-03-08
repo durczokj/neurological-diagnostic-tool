@@ -1,41 +1,42 @@
 import api from '@/shared/utils/api'
+import axios from 'axios'
 
-const symptomsBaseUrl = '/symptoms'
+const symptomsBaseUrl = 'http://localhost:5001/symptoms'
 
-export const getSymptomsList = async () => {
-    const symptoms = api.get(symptomsBaseUrl)
-    return symptoms
+const getSymptomsList = () => {
+    const symptomsList = axios.get(symptomsBaseUrl).then(response => response.data)
+    return symptomsList
 }
 
-const symptomBaseUrl = '/symptom'
+const symptomBaseUrl = 'http://localhost:5001/symptom'
 
-export const createSymptom = async (symptom) => {
-    const createdSymptom = api.post(symptomBaseUrl, symptom)
+const createSymptom = (symptom) => {
+    const createdSymptom = axios.post(symptomBaseUrl, symptom).then(response => response.data)
     return createdSymptom
 }
 
-export const getSymptomByName = async (symptom_name) => {
-    const symptom = api.get(`${symptomBaseUrl}/${symptom_name}`)
+const getSymptomByName = (symptom_name) => {
+    const symptom = axios.get(`${symptomBaseUrl}/${symptom_name}`).then(response => response.data)
     return symptom
 }
 
-export const deleteSymptom = async (symptom_name) => {
-    api.delete(`${symptomBaseUrl}/${symptom_name}`)
+const deleteSymptom = (symptom_name) => {
+    axios.delete(`${symptomBaseUrl}/${symptom_name}`)
 }
 
-export const updateSymptom = async (symptom) => {
-    const updatedSymptom = api.patch(`${symptomBaseUrl}/${symptom.name}`, symptom)
+const updateSymptom = (symptom) => {
+    const updatedSymptom = axios.patch(`${symptomBaseUrl}/${symptom.name}`, symptom).then(response => response.data)
     return updatedSymptom
 }
 
-export const getSymptomQuestion = async (symptom_name) => {
-    const question = api.get(`${symptomBaseUrl}/${symptom_name}/question`)
+const getSymptomQuestion = (symptom_name) => {
+    const question = axios.get(`${symptomBaseUrl}/${symptom_name}/question`).then(response => response.data)
     return question
 }
 
-export const recommendNextSymptom = async (symptom) => {
-    const nextSymptom = api.post(`${symptomBaseUrl}/recommend`, symptom)
+const recommendNextSymptom = (symptom) => {
+    const nextSymptom = axios.post(`${symptomBaseUrl}/recommend`, symptom).then(response => response.data)
     return nextSymptom
 }
 
-
+export default { getSymptomsList, createSymptom, getSymptomByName, deleteSymptom, updateSymptom, getSymptomQuestion, recommendNextSymptom }

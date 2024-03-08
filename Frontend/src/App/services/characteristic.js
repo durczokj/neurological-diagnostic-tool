@@ -1,22 +1,25 @@
 import api from '@/shared/utils/api'
+import axios from 'axios'
 
-const baseUrl = '/characteristic'
+const baseUrl = 'http://localhost:5001/characteristic'
 
-export const getCharacteristicList = async () => {
-    const characteristics = api.get(baseUrl)
+const getCharacteristicList = () => {
+    const characteristics = api.get(baseUrl).then(response => response.data)
     return characteristics
 }
 
-export const createCharacteristic = async (characteristic) => {
-    const createdCharacteristic = api.post(baseUrl, characteristic)
+const createCharacteristic = (characteristic) => {
+    const createdCharacteristic = api.post(baseUrl, characteristic).then(response => response.data)
     return createdCharacteristic
 }
 
-export const getCharacteristicById = async (characteristic_id) => {
-    const characteristic = api.get(`${baseUrl}/${characteristic_id}`)
+const getCharacteristicById = (characteristic_id) => {
+    const characteristic = api.get(`${baseUrl}/${characteristic_id}`).then(response => response.data)
     return characteristic
 }
 
-export const deleteCharacteristic = async (characteristic_id) => {
+const deleteCharacteristic = (characteristic_id) => {
     api.delete(`${baseUrl}/${characteristic_id}`)
 }
+
+export default { getCharacteristicList, createCharacteristic, getCharacteristicById, deleteCharacteristic }

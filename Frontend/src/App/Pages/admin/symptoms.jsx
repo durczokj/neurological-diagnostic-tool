@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { useTranslation } from 'react-i18next'
-import { getSymptomsList } from '../../services/symptoms';
+import symptomsService from '../../services/symptoms';
 
 // console.log(promise2)
 
@@ -28,7 +28,7 @@ export default function AdminSymptoms() {
 //     const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
 
    useEffect(() => {
-    getSymptomsList().then((data) => {
+    symptomsService.getSymptomsList().then((data) => {
       console.log({data})
       // todo format the data to fit the nodes
 //       setNodes(data)
