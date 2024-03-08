@@ -19,25 +19,30 @@ const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions })
 
   const updateAnswers = () => {
     const updatedAnswers = {
-      name: currentSymptom,
-      ...answers,
-    }
-
+      name: currentSymptom.name,
+      ...Object.entries(answers).reduce((acc, [key, value]) => {
+        if (key !== 'hasSymptom') {
+          acc[key] = value;
+        }
+        return acc;
+      }, {}),
+    };
+  
     const existingSymptomIndex = answeredQuestions.findIndex(
-      (question) => question.name === currentSymptom
-    )
-
+      (question) => question.name === currentSymptom.name
+    );
+  
     if (existingSymptomIndex !== -1) {
       answeredQuestions[existingSymptomIndex] = {
         ...answeredQuestions[existingSymptomIndex],
         ...updatedAnswers,
-      }
+      };
     } else {
-      answeredQuestions.push(updatedAnswers)
+      answeredQuestions.push(updatedAnswers);
     }
-
-    return answeredQuestions
-  }
+  
+    return answeredQuestions;
+  };
 
   const handleSubmit = () => {
     const updatedAnsweredQuestions = updateAnswers()
