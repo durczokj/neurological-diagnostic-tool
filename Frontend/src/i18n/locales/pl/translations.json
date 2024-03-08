@@ -6,6 +6,9 @@
         "choose": "Wybierz swoje symptomy",
         "descriptionPlaceholder": "Proszę zacząć od wybrania symptomów z listy poniżej. Możliwe jest wyszukanie symptomów poprzez wpisanie ich nazwy."
     },
+    "interview": {
+        "submit": "Dalej"
+    },
     "questions": {
         "symmetric": "Czy symptom jest symetryczny (dotyczy obu stron ciała, np. prawej i lewej ręki)?",
         "yes": "tak",
@@ -22,6 +25,10 @@
         "years": "lata",
         "constant": "stałe natężenie",
         "family": "Czy inny członkowie rodziny też mieli ten objaw?",
-        "CK": "Jaki jest Twój poziom CK?"
+        "CK": "Jaki jest Twój poziom CK?",
+        "norm": "norma",
+        "aboveNormTo1000": "powyżej normy, ale do 1000",
+        "from1000to10000": "od 1000 do 10000",
+        "above10000": "powyżej 10000"
     }
 }

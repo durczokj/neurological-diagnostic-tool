@@ -3,8 +3,6 @@ import React, { useState } from 'react'
 import { Container, Typography, Button, Box } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
-import symptomsService from '../../services/symptoms'
-import diseasesService from '../../services/diseases'
 
 const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, handleAnsweredQuestions }) => {
   const [answers, setAnswers] = useState({})
@@ -122,38 +120,38 @@ const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, h
 
   return (
     <>
-      <Box
+    <Box
         sx={{
-          width: '100%',
-          backgroundColor: '#0C2865',
-          color: 'white',
-          padding: '1rem',
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          zIndex: 1000,
-          fontFamily: 'Calibri Light',
+            width: '100%',
+            backgroundColor: '#0C2865',
+            color: 'white',
+            padding: '1rem',
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            zIndex: 1000,
+            fontFamily: 'Calibri Light',
         }}
-      >
+    >
         <Typography variant="h4" align="center" style={{ fontWeight: 'bold' }}>
-          {t('interview.title')}
+            {currentSymptom.name}
         </Typography>
-      </Box>
+    </Box>
       <Container style={{ marginTop: '6rem', fontFamily: 'Calibri Light' }}>
         <Box display="flex" flexDirection="column" alignItems="flex-start">
           <Box mt={2}>
             <Typography
-              variant="body1"
-              gutterBottom
-              style={{
-                backgroundColor: '#f0f0f0',
-                padding: '1rem',
-                borderRadius: '1rem',
-                maxWidth: '80%',
-                alignSelf: 'flex-start',
-              }}
-            >
-              {t('interview.question', { symptom: currentSymptom })}
+                variant="body1"
+                gutterBottom
+                style={{
+                    backgroundColor: '#f0f0f0',
+                    padding: '1rem',
+                    borderRadius: '1rem',
+                    maxWidth: '80%',
+                    alignSelf: 'flex-start',
+                }}
+                >
+                {currentSymptom.display_name}
             </Typography>
             <Box mt={1} display="flex" justifyContent="flex-end" width="100%">
               <Button
