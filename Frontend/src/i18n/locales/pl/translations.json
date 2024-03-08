@@ -14,6 +14,7 @@
         "variable": "zmienne",
         "persistent": "stałe",
         "onset": "Kiedy pierwszy raz wystąpiły objawy?",
+        "noRelevantQuestions": "Brak dodatkowych pytań :)",
         "worsen": "Jak długo natężenie symptomu się potęguje?",
         "days": "dni",
         "weeks": "tygodnie",

@@ -14,7 +14,7 @@ import Symptoms from './Pages/Symptoms'
 import Results from './Pages/Results'
 import Home from './Pages/Home'
 import symptomsService from './services/symptoms'
-
+import diseasesService from './services/diseases'
 import './fontStyles.css'
 
 const App = () => {
@@ -38,6 +38,18 @@ const App = () => {
   const handleAnsweredQuestions = (answers) => {
     setAnsweredQuestions(answers)
     console.log(answers)
+    console.log("Question number " + questionNumber)
+    console.log("Length: " + choices.length)
+    if (questionNumber === choices.length + 1) {
+      console.log("dupa")
+      diseasesService
+        .postSymptoms(answers)
+        .then(response => setDiseases(response))
+
+      console.log(diseases)
+
+      return
+    }
     navigate(`/characteristics/${questionNumber}`)
     setQuestionNumber(questionNumber + 1)
   }
