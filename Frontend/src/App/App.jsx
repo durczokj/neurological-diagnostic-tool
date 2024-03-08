@@ -71,8 +71,19 @@ const App = () => {
       <Route path="/characteristics/:question" element={<Characteristics symptoms={choices} answeredQuestions={answeredQuestions} handleAnsweredQuestions={handleAnsweredQuestions} />} />
       <Route path="/results" element={<Results diseases={diseases} />} />
       <Route path="/home" element={<Home user={user} setUser={setUser} />} />
-      <Route path="/interview" element={<Interview currentSymptom={currentSymptom} setSymptoms={setSymptoms} diseases={diseases} answeredQuestions={answeredQuestions} />} />
-      <Route path="/healthy" element={<Healthy />} />
+      <Route
+          path="/interview"
+          element={
+            <Interview
+              currentSymptom={currentSymptom}
+              setSymptoms={setSymptoms}
+              diseases={diseases}
+              answeredQuestions={answeredQuestions}
+              handleAnsweredQuestions={handleAnsweredQuestions}
+            />
+          }
+        />      
+    <Route path="/healthy" element={<Healthy />} />
     </Routes>
   )
 }

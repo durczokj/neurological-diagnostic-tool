@@ -4,8 +4,9 @@ import { Container, Typography, Button, Box } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import symptomsService from '../../services/symptoms'
+import diseasesService from '../../services/diseases'
 
-const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions }) => {
+const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, handleAnsweredQuestions }) => {
   const [answers, setAnswers] = useState({})
   const { t } = useTranslation('translations')
   const navigate = useNavigate()
@@ -45,18 +46,9 @@ const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions })
   };
 
   const handleSubmit = () => {
-    const updatedAnsweredQuestions = updateAnswers()
-    symptomsService
-      .postSymptomsRecommend({ diseases, current_symptoms: updatedAnsweredQuestions })
-      .then((response) => {
-        if (response.diseases.length === 0) {
-          navigate('/results')
-        } else {
-          setSymptoms(response.symptoms)
-          navigate('/interview')
-        }
-      })
-  }
+    const updatedAnsweredQuestions = updateAnswers();
+    handleAnsweredQuestions(updatedAnsweredQuestions);
+  };
 
 
   const questions = [
