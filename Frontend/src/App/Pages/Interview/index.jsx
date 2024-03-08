@@ -119,7 +119,10 @@ const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, h
 
   const handleFinish = () => {
     if (user === 'doctor') {
-      diseasesService.postSymptomsDoctor(answeredQuestions)
+        // TEGO SZUKASZ BARTEK
+        // TU JEST TU JEST
+        // TU TRZEBA ZMIENIĆ
+      diseasesService.postSymptoms(answeredQuestions)
         .then(response => {
           const sortedDiseases = response.sort((a, b) => b.matching_symptoms_count - a.matching_symptoms_count);
           navigate('/doctor-response', { state: { diseases: sortedDiseases } });

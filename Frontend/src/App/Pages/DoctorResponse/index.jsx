@@ -27,6 +27,19 @@ const DoctorResponse = () => {
       </Box>
       <Container style={{ marginTop: '6rem', fontFamily: 'Calibri Light' }}>
         <Box display="flex" flexDirection="column" alignItems="flex-start">
+          <Typography
+            variant="body1"
+            gutterBottom
+            style={{
+              backgroundColor: '#f0f0f0',
+              padding: '1rem',
+              borderRadius: '1rem',
+              maxWidth: '80%',
+              alignSelf: 'flex-start',
+            }}
+          >
+            Poniżej znajdziesz listę chorób, które najbardziej pasują do wprowadzonych objawów, uporządkowane według liczby pasujących objawów:
+          </Typography>
           {diseases.map((disease, index) => (
             <Typography
               key={index}
@@ -38,9 +51,14 @@ const DoctorResponse = () => {
                 borderRadius: '1rem',
                 maxWidth: '80%',
                 alignSelf: 'flex-start',
+                whiteSpace: 'pre-line',
               }}
             >
-              {`Name: ${disease.name}\nGroup: ${disease.group}\nSubgroup: ${disease.subgroup}\nDescription: ${disease.description}\nMatching Symptoms Count: ${disease.matching_symptoms_count}`}
+                          <strong style={{ fontWeight: 'bold' }}>{`Liczba pasujących objawów: `}{disease.matching_symptoms_count}</strong>
+              <strong style={{ fontWeight: 'bold' }}> {`\nNazwa: `}</strong>{disease.name}
+              <strong style={{ fontWeight: 'bold' }}>{`\nGrupa Chorób: `}</strong>{disease.group}
+              <strong style={{ fontWeight: 'bold' }}>{`\nPodgrupa: `}</strong>{disease.subgroup}
+              <strong style={{ fontWeight: 'bold' }}>{`\nOpis: `}</strong>{disease.description}
             </Typography>
           ))}
         </Box>
