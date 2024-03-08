@@ -35,7 +35,7 @@ async def read_symptom(symptom_name: str) -> SymptomOutSchema:
         )
 
 @router.post(
-    "/symptoms", 
+    "/symptom",
     response_model=SymptomOutSchema, 
 )
 async def create_symptom_endpoint(

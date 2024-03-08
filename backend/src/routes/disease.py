@@ -46,6 +46,17 @@ async def create_disease_endpoint(
 ) -> DiseaseOutSchema:
     return await create_disease(disease, current_user)
 
+@router.patch(
+    "/disease/{disease_name}",
+    response_model=DiseaseOutSchema,
+    responses={404: {"model": HTTPNotFoundError}, 403: {"description": "Operation not permitted"}},
+)
+async def update_disease_endpoint(
+    disease_name: str,
+    disease: DiseaseCreateSchema,
+) -> DiseaseOutSchema:
+    return await update_disease(disease_name, disease)
+
 @router.delete(
     "/disease/{name}",
     response_model=Status,
