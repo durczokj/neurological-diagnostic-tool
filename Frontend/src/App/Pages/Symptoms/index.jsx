@@ -1,20 +1,57 @@
 // Symptoms/index.jsx
-import React, { useState, useEffect } from 'react';
-import {
-  Button,
-  Autocomplete,
-  TextField,
-  Grid,
-  Box,
-  Card,
-  CardMedia,
-  Typography,
-  Container,
-} from '@mui/material';
-import pic from '@/App/assets/pol_pl_Masc-na-bol-dupy-w-pudeleczku-2973_4.jpg';
-import { useTranslation } from 'react-i18next';
-import { theme } from '@/shared/utils/styles';
 import symptomsService from '@/App/services/symptoms';
+import {
+  Autocomplete,
+  Box,
+  Button,
+  Container,
+  Grid,
+  TextField,
+  Typography
+} from '@mui/material';
+import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import Swal from 'sweetalert2';
+
+// red flags can be defined as single symptomps (like ból dupy)
+// or as composition of symptoms (CK1 but only combined with CK2)
+const redFlags = [['CK1', 'CK2'], ['ból dupy']]
+
+function redFlagPopUp(detectedRedFlags) {
+    const formattedRedFlags = detectedRedFlags.map(redFlag => `<li>${redFlag}</li>`).join('');
+    Swal.fire({
+        title: 'Wykryto symptom, krytyczny dla życia!',
+        html: `
+        Symptomy sklasyfikowane jako groźne dla życia:<br>
+            <ul style="text-align: left;">${formattedRedFlags}</ul>
+        Prosimy o udanie się do najbliższego szpitala.
+        `,
+        icon: 'warning',
+        confirmButtonText: 'Rozumiem'
+    });
+}
+
+function checkRedFlag(newSymptoms) {
+    let newSymptomsNames = newSymptoms.map(obj => obj.name);
+    let redFlagsDetected = []
+    for (let redFlagCompIdx = 0; redFlagCompIdx < redFlags.length; redFlagCompIdx++) {
+        let shouldBeAdded = true;
+        const redFlagSymptomsComposition = redFlags[redFlagCompIdx];
+        for (let redFlagSymptomIdx = 0; redFlagSymptomIdx < redFlagSymptomsComposition.length; redFlagSymptomIdx++) {
+            const redFlagSymptom = redFlagSymptomsComposition[redFlagSymptomIdx];
+            if (!newSymptomsNames.includes(redFlagSymptom)) {
+                shouldBeAdded = false;
+            }
+        }
+        if (shouldBeAdded) {
+            redFlagsDetected.push(redFlagSymptomsComposition)
+        }
+    }
+
+    if (redFlagsDetected.length > 0) {
+        redFlagPopUp(redFlagsDetected);
+    }
+}
 
 export default function Symptoms({ renderQuestionsScreen }) {
   const [value, setValue] = useState([]);
@@ -31,6 +68,7 @@ export default function Symptoms({ renderQuestionsScreen }) {
 
   const handleSymptomChange = (event, newValue) => {
     setValue(newValue);
+    checkRedFlag(newValue);
     setSelectedSymptoms(newValue);
   };
 
