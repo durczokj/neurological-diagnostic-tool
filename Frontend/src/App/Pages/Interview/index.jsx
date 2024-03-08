@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import { Container, Typography, Button, Box } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
-
-const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, handleAnsweredQuestions }) => {
+import diseasesService from '../../services/diseases'
+const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, handleAnsweredQuestions, user }) => {
   const [answers, setAnswers] = useState({})
   const { t } = useTranslation('translations')
   const navigate = useNavigate()
@@ -117,6 +117,20 @@ const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, h
     },
   ];
 
+  const handleFinish = () => {
+    if (user === 'doctor') {
+      diseasesService.postSymptomsDoctor(answeredQuestions)
+        .then(response => {
+          const sortedDiseases = response.sort((a, b) => b.matching_symptoms_count - a.matching_symptoms_count);
+          navigate('/doctor-response', { state: { diseases: sortedDiseases } });
+        });
+    } else {
+      diseasesService.postSymptomsPatient(answeredQuestions)
+        .then(response => {
+          navigate('/patient-response', { state: { groups: response } });
+        });
+    }
+  };
 
   return (
     <>
@@ -231,6 +245,16 @@ const Interview = ({ currentSymptom, setSymptoms, diseases, answeredQuestions, h
             </Button>
           </Box>
         </Box>
+        <Box mt={2} display="flex" justifyContent="flex-end" width="100%">
+  <Button
+    variant="contained"
+    color="primary"
+    style={{ fontFamily: 'Calibri Light' }}
+    onClick={handleFinish}
+  >
+    {t('interview.finish')}
+  </Button>
+</Box>
       </Container>
     </>
   )

@@ -18,6 +18,7 @@ import Healthy from './Pages/Healthy'
 import symptomsService from './services/symptoms'
 import diseasesService from './services/diseases'
 import './fontStyles.css'
+import DoctorResponse from './Pages/DoctorResponse';
 
 const App = () => {
   const navigate = useNavigate()
@@ -80,9 +81,11 @@ const App = () => {
               diseases={diseases}
               answeredQuestions={answeredQuestions}
               handleAnsweredQuestions={handleAnsweredQuestions}
+              user={user}
             />
           }
         />      
+    <Route path="/doctor-response" element={<DoctorResponse />} />
     <Route path="/healthy" element={<Healthy />} />
     </Routes>
   )

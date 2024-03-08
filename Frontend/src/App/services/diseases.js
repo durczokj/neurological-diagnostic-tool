@@ -11,4 +11,20 @@ const postSymptoms = (symptoms) => {
     return request.then(response => response.data)
 }
 
-export default { postSymptoms }
+const postSymptomsPatient = (symptoms) => {
+    // const symptoms = api.get(baseUrl)
+    // console.log(symptoms)
+    // return symptoms
+    const request = axios.post(`${baseUrl}/disease/final_results_group`, symptoms)
+    return request.then(response => response.data)
+}
+
+const postSymptomsDoctor = (symptoms) => {
+    // const symptoms = api.get(baseUrl)
+    // console.log(symptoms)
+    // return symptoms
+    const request = axios.post(`${baseUrl}/disease/final_results_disease`, symptoms)
+    return request.then(response => response.data)
+}
+
+export default { postSymptoms, postSymptomsDoctor, postSymptomsPatient}
