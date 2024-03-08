@@ -11,9 +11,9 @@ import {
 import SignIn from './Pages/Login'
 import Characteristics from './Pages/Characteristics'
 import Symptoms from './Pages/Symptoms'
-import AdminSymptoms from './Pages/admin/symptoms'
-// import AdminDiseases from './Pages/admin/diseases'
-// import AdminCharacteristics from './Pages/admin/characteristics'
+import AdminSymptoms from './Pages/admin/Symptoms'
+// import AdminDiseases from './Pages/admin/Diseases'
+import AdminCharacteristics from './Pages/admin/Characteristics'
 
 import './fontStyles.css'
 
@@ -99,7 +99,7 @@ const App = () => {
               <Route path="/characteristics/:question" element={ <Characteristics symptoms={choices} answeredQuestions={answeredQuestions} handleAnsweredQuestions={handleAnsweredQuestions} /> } />
               <Route path="/admin/symptoms" element={ <AdminSymptoms /> } />
 {/*               <Route path="/admin/diseases" element={ <AdminDiseases /> } /> */}
-{/*               <Route path="/admin/characteristics" element={ <AdminCharacteristics /> } /> */}
+              <Route path="/admin/characteristics" element={ <AdminCharacteristics /> } />
           </Routes>
         </Paper>
       </Container>
