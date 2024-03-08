@@ -9,6 +9,11 @@ const postSymptomsList = async symptomList => {
     return symptom
 }
 
+const postSymptomsRecommend = async (data) => {
+  const request = axios.post(`http://localhost:5001/symptom/recommend`, data)
+  return request.then(response => response.data)
+}
+
 const getSymptomsList = () => {
   // const symptoms = api.get(baseUrl)
   // console.log(symptoms)
@@ -17,4 +22,4 @@ const getSymptomsList = () => {
   return request.then(response => response.data)
 }
 
-export default { postSymptomsList, getSymptomsList }
+export default { postSymptomsList, getSymptomsList, postSymptomsRecommend }

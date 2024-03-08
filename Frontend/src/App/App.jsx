@@ -13,8 +13,8 @@ import Characteristics from './Pages/Characteristics'
 import Symptoms from './Pages/Symptoms'
 import Results from './Pages/Results'
 import Home from './Pages/Home'
-// import Interview from './Pages/Interview'
-// import Healthy from './Pages/Healthy'
+import Interview from './Pages/Interview'
+import Healthy from './Pages/Healthy'
 import symptomsService from './services/symptoms'
 import diseasesService from './services/diseases'
 import './fontStyles.css'
@@ -45,12 +45,16 @@ const App = () => {
       diseasesService
         .postSymptoms(answers)
         .then(response => {
-          setDiseases(response.diseases)
-          setCurrentSymptom(response.current_symptom)
-          if (response.diseases.length === 0) {
+          setDiseases(response)
+          if (response.length === 0) {
             navigate('/healthy')
           } else {
-            navigate('/interview')
+            symptomsService
+              .postSymptomsRecommend({ diseases: response, current_symptoms: answers })
+              .then(recommendResponse => {
+                setCurrentSymptom(recommendResponse)
+                navigate('/interview')
+              })
           }
         })
       console.log(diseases)
@@ -67,8 +71,8 @@ const App = () => {
       <Route path="/characteristics/:question" element={<Characteristics symptoms={choices} answeredQuestions={answeredQuestions} handleAnsweredQuestions={handleAnsweredQuestions} />} />
       <Route path="/results" element={<Results diseases={diseases} />} />
       <Route path="/home" element={<Home user={user} setUser={setUser} />} />
-      {/* <Route path="/interview" element={<Interview currentSymptom={currentSymptom} setSymptoms={setSymptoms} />} /> */}
-      {/* <Route path="/healthy" element={<Healthy />} /> */}
+      <Route path="/interview" element={<Interview currentSymptom={currentSymptom} setSymptoms={setSymptoms} diseases={diseases} answeredQuestions={answeredQuestions} />} />
+      <Route path="/healthy" element={<Healthy />} />
     </Routes>
   )
 }

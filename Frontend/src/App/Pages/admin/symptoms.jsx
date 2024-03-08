@@ -9,7 +9,7 @@ import ReactFlow, {
 } from 'reactflow';
 
 import 'reactflow/dist/style.css';
-import symptomService from '../services/symptomService';
+import symptomService from './services/symptomService';
 
 // console.log(promise2)
 
