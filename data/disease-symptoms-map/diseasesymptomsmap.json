@@ -1,0 +1,4545 @@
+{ "diseasesymptomsmap": [
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    },
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "RZS"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Hashimoto lub niedoczynność tarczycy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Choroba Graves-Basedowa"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Cukrzyca t1"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Pogorszenie po wysiłku"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Poprawa po odpoczynku"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Pogorszenie w czasie infekcji"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Nowotwór drobnokomórkowy płuca"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Objawy kończynowe są znacznie bardziej nasilone niż oczne i opuszkowe"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Niedowład proksymalny bardziej nasilony niż dystalny"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Pogorszenie w czasie infekcji"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Suchość w jamie ustnej"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Suchość spojówek"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Omdlenia ortostatyczne"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Impotencja"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaparcia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Arefleksja"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "zmienne"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } , 
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Cichy płacz"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Artrogrypoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Bezdechy w niemowlęctwie"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Hipotonia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Osłabiona reakcja źrenic na światło"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Dysmorfia twarzy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Padaczka"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Opóźnienie rozwoju intelektualnego"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zespół nerczycowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Ataksja epizodyczna typu 2"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Pęcherzowe oddzielanie się naskórka"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Porażenie strun głosowych podczas niemowlęctwa"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CPEO",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CPEO",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "CPEO",
+        "symptom_id": "Oftalmopegia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "CIDP",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CIDP",
+        "symptom_id": "Gammapatia monoklonalna"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CIDP",
+        "symptom_id": "Cukrzyca t1"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CIDP",
+        "symptom_id": "HIV"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zmienność nasilenia objawów w ciągu doby"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "miastenia",
+        "symptom_id": "Zmienność nasilenia objawów w ciągu doby"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "wrodzony zespół miasteniczny",
+        "symptom_id": "Zmienność nasilenia objawów w ciągu doby"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CPEO",
+        "symptom_id": "Izolowane dwojenie (bez innych objawów ocznych)"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": null,
+        "disease_id": "CIDP",
+        "symptom_id": "Poziom CK powyżej 10000"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "MMN",
+        "symptom_id": "Niedowład dystalny bardziej nasilony niż proksymalny"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "MMN",
+        "symptom_id": "Niedowład kończyn górnych większy niż kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "MMN",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "MMN",
+        "symptom_id": "Pogorszenie w czasie infekcji"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "MMN",
+        "symptom_id": "Zanik mięśni"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": null,
+        "disease_id": "MMN",
+        "symptom_id": "Zaburzenia czucia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "asymetryczny"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "powyżej 50 roku życia"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "CMT",
+        "symptom_id": "Deformacje stóp - wydrążone stopy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CMT",
+        "symptom_id": "Deformacje stóp - wydrążone stopy"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CMT",
+        "symptom_id": "Zanik mięśni"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CMT",
+        "symptom_id": "Zaburzenia chodu - chód z opadaniem stóp"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CMT",
+        "symptom_id": "Zaburzenia czucia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "CMT",
+        "symptom_id": "Młotkowate ustawienie palców stóp"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "DMD/BMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": null,
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Płeć żeńska"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Kardiomiopatia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Wstawanie z podłogi wspinając sę po sobie - objaw Gowers'a"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Hiperlordoza lędźwiowa"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "DMD/BMD",
+        "symptom_id": "Hipotonia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": true,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "zmienność w czasie",
+            "value": "stałe/postępujące"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "symetria",
+            "value": "symetryczny"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "poniżej 10 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 10 do 20 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 20 do 30 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "wiek podczas wystapienia pierwszych objawów",
+            "value": "od 30 do 50 roku życia"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": null,
+        "disease_id": "LGMD",
+        "symptom_id": "Zaburzenia czucia"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": null,
+        "disease_id": "LGMD",
+        "symptom_id": "Dominujące zajęcie mięśni obręczy barkowej (ramion) i biodrowej (ud)"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "norma"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej normy, ale do 1000"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": false,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "od 1000 do 10000"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "CK"
+    } ,
+    {
+        "required": false,
+        "excluding": true,
+        "characteristic_id": {
+            "name": "ck_level",
+            "value": "powyżej 10000"
+        },
+        "disease_id": "LGMD",
+        "symptom_id": "CK"
+    },
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "miastenia",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Ptoza"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dwojenie obrazu"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dysfagia"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia gryzienia/żucia pokarmów"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Duszność"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Zaburzenia mowy"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Proksymalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn górnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } ,
+    {
+        "required": "false",
+        "excluding": "false",
+        "characteristic_id": {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie"
+        },
+        "disease_id": "zespół miasteniczny Lamberta-Eatona",
+        "symptom_id": "Dystalny niedowład kończyn dolnych"
+    } 
+]
+}

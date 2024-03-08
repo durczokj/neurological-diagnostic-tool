@@ -1,0 +1,14 @@
+{
+    "characteristic": [
+
+        {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "tak" 
+        },
+        {
+            "name": "występowanie objawu w rodzinie (do 2 pokoleń wstecz)",
+            "value": "nie" 
+        }
+        
+    ]
+}

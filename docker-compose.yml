@@ -12,6 +12,26 @@ services:
     command: uvicorn src.main:app --reload --host 0.0.0.0 --port 5001
     depends_on:
       - db
+    # healthcheck:
+    #       test: ["CMD", "curl", "--fail", "http://backend:5001/"]
+    #       interval: 30s
+    #       timeout: 10s
+    #       retries: 5
+    #       start_period: 30s
+  data:
+    build: ./data
+    depends_on:
+      - backend
+    volumes:
+      - ./data:/data
+    command: /bin/bash -c "cd /data && python bulk_insert.py"
+
+  frontend:
+    build: ./Frontend
+    ports:
+      - 5173:5173
+    depends_on:
+      - db
 
   db:
     image: postgres:15.1

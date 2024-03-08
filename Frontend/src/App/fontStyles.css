@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'HelveticaNow-Regular';
+    src: url('./assets/fonts/helveticanowtext-bold-demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNow-Italic';
+    src: url('./assets/fonts/helveticanowtext-bolditalic-demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNow-Bold';
+    src: url('./assets/fonts/helveticanowtext-black-demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNow-Bold-Italic';
+    src: url('./assets/fonts/helveticanowtext-blackitalic-demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

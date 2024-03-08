@@ -1,0 +1,32 @@
+{
+    "app": { 
+        "helloWorld": "Hello, world!"
+    },
+    "symptoms": {
+        "choose": "Choose your symptoms",
+        "descriptionPlaceholder": "Start by choosing you symptoms from the list below. You can also filter the symptoms by typing it's name."
+    },
+    "questions": {
+        "symmetric": "Is the symptom symmetric (affects both sides of the body, eg. right and left hand)?",
+        "yes": "yes",
+        "no": "no",
+        "severity": "Did the symptom's severity change over time? Have there been periods of deterioration and improvement (variable) or is it persistent/progressive over time?",
+        "variable": "variable",
+        "persistent": "persistent",
+        "onset": "When did the symptoms first occur?",
+        "birth": "0",
+        "belowTen": "1-10",
+        "belowTwenty": "11-20",
+        "belowThirty": "21-30",
+        "belowFifty": "31-50",
+        "moreThanFifty": "> 50",
+        "worsen": "For how long have the symptomes been getting worse?",
+        "days": "days",
+        "weeks": "weeks",
+        "months": "months",
+        "years": "years",
+        "constant": "constant intensity",
+        "family": "Did other family members have the same symptome?",
+        "CK": "What's your CK level?"
+    }
+}
