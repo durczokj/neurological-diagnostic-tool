@@ -22,7 +22,22 @@ const Characteristics = ({ symptoms, answeredQuestions, handleAnsweredQuestions 
       name: symptom.name,
       ...answers,
     };
-    answeredQuestions.push(updatedAnswers);
+  
+    const existingSymptomIndex = answeredQuestions.findIndex(
+      (question) => question.name === symptom.name
+    );
+  
+    if (existingSymptomIndex !== -1) {
+      // If the symptom already exists in the array, update its characteristics
+      answeredQuestions[existingSymptomIndex] = {
+        ...answeredQuestions[existingSymptomIndex],
+        ...updatedAnswers,
+      };
+    } else {
+      // If the symptom doesn't exist in the array, add it as a new object
+      answeredQuestions.push(updatedAnswers);
+    }
+  
     return answeredQuestions;
   };
 
